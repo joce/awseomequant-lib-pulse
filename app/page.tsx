@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import cryptoOnly from "./crypto-only.json";
 import data from "./libraries.json";
 
 type Library = (typeof data.libraries)[number];
@@ -13,6 +14,11 @@ const date = new Intl.DateTimeFormat("en", {
 });
 
 const number = new Intl.NumberFormat("en");
+const cryptoOnlyRepositories = new Set(cryptoOnly);
+
+function isCryptoOnly(library: Library) {
+  return library.repo !== null && cryptoOnlyRepositories.has(library.repo);
+}
 
 function releaseLabel(library: Library) {
   if (library.release?.publishedAt) return "released";
@@ -23,6 +29,7 @@ function releaseLabel(library: Library) {
 export default function Home() {
   const [query, setQuery] = useState("");
   const [section, setSection] = useState("all");
+  const [market, setMarket] = useState("all");
   const [release, setRelease] = useState("all");
   const [sort, setSort] = useState("stars");
 
@@ -41,6 +48,10 @@ export default function Home() {
               .toLowerCase()
               .includes(needle)) &&
           (section === "all" || library.section === section) &&
+          (market === "all" ||
+            (market === "exclude"
+              ? !isCryptoOnly(library)
+              : isCryptoOnly(library))) &&
           (release === "all" || releaseLabel(library) === release),
       )
       .sort((a, b) => {
@@ -51,7 +62,7 @@ export default function Home() {
           );
         return (b.stars ?? -1) - (a.stars ?? -1);
       });
-  }, [query, section, release, sort]);
+  }, [query, section, market, release, sort]);
 
   const released = data.libraries.filter((library) => library.release).length;
   const noRelease = data.libraries.filter(
@@ -78,6 +89,7 @@ export default function Home() {
         <div><strong>{number.format(data.libraries.length)}</strong><span>Python entries</span></div>
         <div><strong>{number.format(released)}</strong><span>With a GitHub release</span></div>
         <div><strong>{number.format(noRelease)}</strong><span>Without a GitHub release</span></div>
+        <div><strong>{number.format(cryptoOnly.length)}</strong><span>Crypto-only</span></div>
       </section>
 
       <section className="controls" aria-label="Filter libraries">
@@ -95,6 +107,14 @@ export default function Home() {
           <select value={section} onChange={(event) => setSection(event.target.value)}>
             <option value="all">All categories</option>
             {sections.map((value) => <option key={value}>{value}</option>)}
+          </select>
+        </label>
+        <label>
+          <span>Market scope</span>
+          <select value={market} onChange={(event) => setMarket(event.target.value)}>
+            <option value="all">All markets</option>
+            <option value="exclude">Hide crypto-only</option>
+            <option value="only">Crypto-only</option>
           </select>
         </label>
         <label>
@@ -139,6 +159,7 @@ export default function Home() {
                     <a className="library" href={href} target="_blank" rel="noreferrer">
                       {library.name} <span aria-hidden="true">↗</span>
                     </a>
+                    {isCryptoOnly(library) && <span className="crypto-tag">Crypto-only</span>}
                     <span className="repo">
                       {library.repo ?? "No GitHub repository"}
                       {library.archived ? " · archived" : ""}
@@ -185,6 +206,11 @@ export default function Home() {
           Stars are point-in-time counts. Duplicate README links to the same repository
           are shown once. Deleted, renamed, non-GitHub, and built-in projects remain in
           the report with unavailable GitHub fields.
+        </p>
+        <p>
+          Crypto-only flags are conservative: a project is marked only when its stated
+          scope is exclusively cryptocurrency, digital assets, blockchain, or DeFi.
+          Mixed-market tools are not flagged.
         </p>
       </footer>
     </main>

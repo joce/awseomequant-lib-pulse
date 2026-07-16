@@ -1,0 +1,23 @@
+[
+  "AccursedGalaxy/wasserstein-btc",
+  "AlexanderMerkel/binance-fix-connector-python",
+  "Drakkar-Software/OctoBot",
+  "Drakkar-Software/OctoBot-Script",
+  "Swap-API/swap-api",
+  "barnumbirr/coinmarketcap",
+  "ccxt/ccxt",
+  "coinpaprika/coinpaprika-api-python-client",
+  "coinpaprika/dexpaprika-sdk-python",
+  "crypto-lake/lake-api",
+  "eslazarev/pricehub",
+  "freqtrade/freqtrade",
+  "gbeced/basana",
+  "jesse-ai/jesse",
+  "nazmiefearmutcu/dive-into-crypto",
+  "scrtlabs/catalyst",
+  "soutone/coinpulse-python",
+  "stefanoviana/deepalpha",
+  "tardis-dev/tardis-python",
+  "tradingstrategy-ai/getting-started",
+  "tradingstrategy-ai/trading-strategy"
+]

@@ -21,17 +21,27 @@ test("renders the completed library report", async () => {
   assert.match(html, /Showing[^<]*<!-- -->315/);
   assert.match(html, /Latest GitHub release/);
   assert.match(html, /Stars, high to low/);
+  assert.match(html, /Hide crypto-only/);
+  assert.match(html, /Crypto-only/);
   assert.doesNotMatch(html, /codex-preview|loading skeleton/i);
 });
 
 test("keeps the collected data internally consistent", async () => {
-  const data = JSON.parse(
-    await readFile(new URL("../app/libraries.json", import.meta.url), "utf8"),
-  );
+  const [data, cryptoOnly] = await Promise.all([
+    readFile(new URL("../app/libraries.json", import.meta.url), "utf8").then(JSON.parse),
+    readFile(new URL("../app/crypto-only.json", import.meta.url), "utf8").then(JSON.parse),
+  ]);
   assert.equal(data.libraries.length, 315);
   assert.equal(data.libraries.filter((row) => row.release).length, 176);
   const keys = data.libraries.map((row) => row.repo_requested || `${row.name}|${row.primary_url}`);
   assert.equal(new Set(keys).size, keys.length);
+  assert.equal(cryptoOnly.length, 21);
+  assert.equal(new Set(cryptoOnly).size, cryptoOnly.length);
+  assert.ok(cryptoOnly.includes("freqtrade/freqtrade"));
+  assert.ok(cryptoOnly.includes("ccxt/ccxt"));
+  assert.ok(!cryptoOnly.includes("Lumiwealth/lumibot"));
+  const repos = new Set(data.libraries.map((row) => row.repo).filter(Boolean));
+  assert.ok(cryptoOnly.every((repo) => repos.has(repo)));
   for (const row of data.libraries) {
     assert.ok(row.stars === null || (Number.isInteger(row.stars) && row.stars >= 0));
     if (row.release) {
