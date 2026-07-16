@@ -5,6 +5,7 @@ import cryptoOnly from "./crypto-only.json";
 import data from "./libraries.json";
 
 type Library = (typeof data.libraries)[number];
+type SortKey = "name" | "section" | "languages" | "release" | "stars";
 
 const date = new Intl.DateTimeFormat("en", {
   day: "numeric",
@@ -26,15 +27,30 @@ function releaseLabel(library: Library) {
   return "unavailable";
 }
 
+function toggle(values: string[], value: string) {
+  return values.includes(value)
+    ? values.filter((item) => item !== value)
+    : [...values, value];
+}
+
 export default function Home() {
   const [query, setQuery] = useState("");
-  const [section, setSection] = useState("all");
+  const [sections, setSections] = useState<string[]>([]);
+  const [languages, setLanguages] = useState<string[]>([]);
   const [market, setMarket] = useState("all");
   const [release, setRelease] = useState("all");
-  const [sort, setSort] = useState("stars");
+  const [sort, setSort] = useState<{ key: SortKey; direction: "asc" | "desc" }>({
+    key: "stars",
+    direction: "desc",
+  });
 
-  const sections = useMemo(
+  const availableSections = useMemo(
     () => [...new Set(data.libraries.map((library) => library.section))].sort(),
+    [],
+  );
+  const availableLanguages = useMemo(
+    () =>
+      [...new Set(data.libraries.flatMap((library) => library.languages))].sort(),
     [],
   );
 
@@ -47,7 +63,9 @@ export default function Home() {
             `${library.name} ${library.repo ?? ""} ${library.description}`
               .toLowerCase()
               .includes(needle)) &&
-          (section === "all" || library.section === section) &&
+          (!sections.length || sections.includes(library.section)) &&
+          (!languages.length ||
+            library.languages.some((language) => languages.includes(language))) &&
           (market === "all" ||
             (market === "exclude"
               ? !isCryptoOnly(library)
@@ -55,14 +73,51 @@ export default function Home() {
           (release === "all" || releaseLabel(library) === release),
       )
       .sort((a, b) => {
-        if (sort === "name") return a.name.localeCompare(b.name);
-        if (sort === "release")
-          return (b.release?.publishedAt ?? "").localeCompare(
-            a.release?.publishedAt ?? "",
-          );
-        return (b.stars ?? -1) - (a.stars ?? -1);
+        const direction = sort.direction === "asc" ? 1 : -1;
+        if (sort.key === "stars")
+          return ((a.stars ?? -1) - (b.stars ?? -1)) * direction;
+        if (sort.key === "release")
+          return (a.release?.publishedAt ?? "").localeCompare(
+            b.release?.publishedAt ?? "",
+          ) * direction;
+        if (sort.key === "languages")
+          return a.languages.join(", ").localeCompare(b.languages.join(", ")) * direction;
+        return a[sort.key].localeCompare(b[sort.key]) * direction;
       });
-  }, [query, section, market, release, sort]);
+  }, [query, sections, languages, market, release, sort]);
+
+  function sortBy(key: SortKey) {
+    setSort((current) =>
+      current.key === key
+        ? { key, direction: current.direction === "asc" ? "desc" : "asc" }
+        : {
+            key,
+            direction: key === "name" || key === "section" || key === "languages"
+              ? "asc"
+              : "desc",
+          },
+    );
+  }
+
+  function sortHeader(key: SortKey, label: string, className?: string) {
+    const active = sort.key === key;
+    return (
+      <th
+        className={className}
+        aria-sort={
+          active
+            ? sort.direction === "asc"
+              ? "ascending"
+              : "descending"
+            : "none"
+        }
+      >
+        <button type="button" className="sort-button" onClick={() => sortBy(key)}>
+          {label} <span aria-hidden="true">{active ? (sort.direction === "asc" ? "↑" : "↓") : "↕"}</span>
+        </button>
+      </th>
+    );
+  }
 
   const released = data.libraries.filter((library) => library.release).length;
   const noRelease = data.libraries.filter(
@@ -73,11 +128,11 @@ export default function Home() {
     <main>
       <header className="hero">
         <div>
-          <p className="eyebrow">Awesome Quant · Python library pulse</p>
+          <p className="eyebrow">Awesome Quant · Library pulse</p>
           <h1>Release recency and GitHub stars, in one place.</h1>
           <p className="lede">
-            Every unique entry tagged <code>Python</code> in the current Awesome
-            Quant README, checked against GitHub on 16 July 2026.
+            Every language-tagged entry in the current Awesome Quant README,
+            checked against GitHub on 16 July 2026.
           </p>
         </div>
         <a className="source" href={data.source} target="_blank" rel="noreferrer">
@@ -86,7 +141,7 @@ export default function Home() {
       </header>
 
       <section className="summary" aria-label="Dataset summary">
-        <div><strong>{number.format(data.libraries.length)}</strong><span>Python entries</span></div>
+        <div><strong>{number.format(data.libraries.length)}</strong><span>Libraries</span></div>
         <div><strong>{number.format(released)}</strong><span>With a GitHub release</span></div>
         <div><strong>{number.format(noRelease)}</strong><span>Without a GitHub release</span></div>
         <div><strong>{number.format(cryptoOnly.length)}</strong><span>Crypto-only</span></div>
@@ -102,13 +157,38 @@ export default function Home() {
             onChange={(event) => setQuery(event.target.value)}
           />
         </label>
-        <label>
-          <span>Category</span>
-          <select value={section} onChange={(event) => setSection(event.target.value)}>
-            <option value="all">All categories</option>
-            {sections.map((value) => <option key={value}>{value}</option>)}
-          </select>
-        </label>
+        <details className="multi-filter">
+          <summary>Languages <span>{languages.length ? `${languages.length} selected` : "All"}</span></summary>
+          <fieldset>
+            <legend>Filter by one or more languages</legend>
+            {availableLanguages.map((value) => (
+              <label className="check" key={value}>
+                <input
+                  type="checkbox"
+                  checked={languages.includes(value)}
+                  onChange={() => setLanguages((current) => toggle(current, value))}
+                />
+                <span>{value}</span>
+              </label>
+            ))}
+          </fieldset>
+        </details>
+        <details className="multi-filter">
+          <summary>Categories <span>{sections.length ? `${sections.length} selected` : "All"}</span></summary>
+          <fieldset>
+            <legend>Filter by one or more categories</legend>
+            {availableSections.map((value) => (
+              <label className="check" key={value}>
+                <input
+                  type="checkbox"
+                  checked={sections.includes(value)}
+                  onChange={() => setSections((current) => toggle(current, value))}
+                />
+                <span>{value}</span>
+              </label>
+            ))}
+          </fieldset>
+        </details>
         <label>
           <span>Market scope</span>
           <select value={market} onChange={(event) => setMarket(event.target.value)}>
@@ -126,14 +206,6 @@ export default function Home() {
             <option value="unavailable">Repository unavailable</option>
           </select>
         </label>
-        <label>
-          <span>Sort by</span>
-          <select value={sort} onChange={(event) => setSort(event.target.value)}>
-            <option value="stars">Stars, high to low</option>
-            <option value="release">Newest release</option>
-            <option value="name">Library name</option>
-          </select>
-        </label>
       </section>
 
       <div className="result-count" aria-live="polite">
@@ -144,10 +216,11 @@ export default function Home() {
         <table>
           <thead>
             <tr>
-              <th>Library</th>
-              <th>Category</th>
-              <th>Latest GitHub release</th>
-              <th className="numeric">Stars</th>
+              {sortHeader("name", "Library")}
+              {sortHeader("languages", "Languages")}
+              {sortHeader("section", "Category")}
+              {sortHeader("release", "Latest GitHub release")}
+              {sortHeader("stars", "Stars", "numeric")}
             </tr>
           </thead>
           <tbody>
@@ -165,6 +238,7 @@ export default function Home() {
                       {library.archived ? " · archived" : ""}
                     </span>
                   </td>
+                  <td><span className="languages">{library.languages.join(", ")}</span></td>
                   <td><span className="category">{library.section}</span></td>
                   <td>
                     {library.release?.publishedAt ? (

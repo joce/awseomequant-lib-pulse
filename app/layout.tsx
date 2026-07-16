@@ -6,8 +6,8 @@ const geistSans = Geist({ variable: "--font-geist-sans", subsets: ["latin"] });
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Python Quant Library Pulse",
-  description: "Latest GitHub releases and star counts for the Python projects in Awesome Quant.",
+  title: "Quant Library Pulse",
+  description: "Latest GitHub releases and star counts for every language-tagged project in Awesome Quant.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
