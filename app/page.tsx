@@ -128,10 +128,13 @@ export default function Home() {
     <main>
       <header className="hero">
         <div>
-          <p className="eyebrow">Awesome Quant · Library pulse</p>
-          <h1>Release recency and GitHub stars, in one place.</h1>
+          <h1>Awesome Quant · Library pulse</h1>
           <p className="lede">
-            Every language-tagged entry in the current Awesome Quant README,
+            Every language-tagged entry in the current{" "}
+            <a href={data.source} target="_blank" rel="noreferrer">
+              Awesome Quant README
+            </a>
+            ,
             checked against GitHub on 16 July 2026.
           </p>
         </div>

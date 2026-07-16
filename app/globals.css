@@ -37,15 +37,6 @@ main {
   padding-bottom: 40px;
 }
 
-.eyebrow {
-  margin: 0 0 18px;
-  color: var(--accent);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: .1em;
-  text-transform: uppercase;
-}
-
 h1 {
   max-width: 780px;
   margin: 0;

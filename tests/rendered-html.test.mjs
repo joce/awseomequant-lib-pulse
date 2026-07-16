@@ -17,7 +17,10 @@ test("renders the completed library report", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   const html = await response.text();
-  assert.match(html, /<title>Quant Library Pulse<\/title>/i);
+  assert.match(html, /<title>Awesome Quant · Library pulse<\/title>/i);
+  assert.match(html, /<h1>Awesome Quant · Library pulse<\/h1>/i);
+  assert.match(html, /href="https:\/\/github\.com\/wilsonfreitas\/awesome-quant\/blob\/main\/README\.md"[^>]*>Awesome Quant README<\/a>/i);
+  assert.doesNotMatch(html, /class="eyebrow"/i);
   assert.match(html, /Showing[^<]*<!-- -->461/);
   assert.match(html, /Latest GitHub release/);
   assert.match(html, /Languages/);
