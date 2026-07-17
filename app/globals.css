@@ -184,6 +184,7 @@ th { color: var(--muted); font-size: 11px; letter-spacing: .05em; text-transform
   letter-spacing: inherit;
   text-align: inherit;
   text-transform: inherit;
+  white-space: nowrap;
 }
 .sort-button:hover { color: var(--ink); }
 .numeric .sort-button { width: 100%; text-align: right; }
