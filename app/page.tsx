@@ -247,7 +247,7 @@ export default function Home() {
                       {library.name} <span aria-hidden="true">↗</span>
                     </a>
                     {isCryptoOnly(library) && <span className="status-tag">Crypto-only</span>}
-                    {library.archived && <span className="status-tag">Archived</span>}
+                    {library.archived && <span className="status-tag archive-tag">Archived</span>}
                     <span className="repo">
                       {library.repo ?? "No GitHub repository"}
                     </span>

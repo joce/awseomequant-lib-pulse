@@ -205,6 +205,12 @@ tbody tr:hover { background: rgba(255, 253, 248, .75); }
   line-height: 1.4;
   text-transform: uppercase;
 }
+.archive-tag {
+  border-color: #d5b66f;
+  background: #f5e8bd;
+  color: #6f541a;
+}
+.archive-tag::before { content: "⚠"; margin-right: 4px; }
 .repo, .tag { display: block; max-width: 390px; margin-top: 5px; color: var(--muted); font-size: 12px; line-height: 1.4; }
 .category, .languages { display: inline-block; max-width: 240px; color: var(--muted); line-height: 1.4; }
 .empty { color: var(--muted); }
