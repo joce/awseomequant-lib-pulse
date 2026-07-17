@@ -38,6 +38,7 @@ export default function Home() {
   const [sections, setSections] = useState<string[]>([]);
   const [languages, setLanguages] = useState<string[]>([]);
   const [market, setMarket] = useState("all");
+  const [archive, setArchive] = useState("all");
   const [release, setRelease] = useState("all");
   const [sort, setSort] = useState<{ key: SortKey; direction: "asc" | "desc" }>({
     key: "stars",
@@ -70,6 +71,8 @@ export default function Home() {
             (market === "exclude"
               ? !isCryptoOnly(library)
               : isCryptoOnly(library))) &&
+          (archive === "all" ||
+            (archive === "exclude" ? !library.archived : library.archived)) &&
           (release === "all" || releaseLabel(library) === release),
       )
       .sort((a, b) => {
@@ -84,7 +87,7 @@ export default function Home() {
           return a.languages.join(", ").localeCompare(b.languages.join(", ")) * direction;
         return a[sort.key].localeCompare(b[sort.key]) * direction;
       });
-  }, [query, sections, languages, market, release, sort]);
+  }, [query, sections, languages, market, archive, release, sort]);
 
   function sortBy(key: SortKey) {
     setSort((current) =>
@@ -209,6 +212,14 @@ export default function Home() {
             <option value="unavailable">Repository unavailable</option>
           </select>
         </label>
+        <label>
+          <span>Project status</span>
+          <select value={archive} onChange={(event) => setArchive(event.target.value)}>
+            <option value="all">All projects</option>
+            <option value="exclude">Hide archived</option>
+            <option value="only">Archived only</option>
+          </select>
+        </label>
       </section>
 
       <div className="result-count" aria-live="polite">
@@ -235,10 +246,10 @@ export default function Home() {
                     <a className="library" href={href} target="_blank" rel="noreferrer">
                       {library.name} <span aria-hidden="true">↗</span>
                     </a>
-                    {isCryptoOnly(library) && <span className="crypto-tag">Crypto-only</span>}
+                    {isCryptoOnly(library) && <span className="status-tag">Crypto-only</span>}
+                    {library.archived && <span className="status-tag">Archived</span>}
                     <span className="repo">
                       {library.repo ?? "No GitHub repository"}
-                      {library.archived ? " · archived" : ""}
                     </span>
                   </td>
                   <td><span className="languages">{library.languages.join(", ")}</span></td>

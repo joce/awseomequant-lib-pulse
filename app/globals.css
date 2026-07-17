@@ -101,7 +101,7 @@ code {
 
 .controls {
   display: grid;
-  grid-template-columns: 2fr repeat(4, 1fr);
+  grid-template-columns: 2fr repeat(5, 1fr);
   gap: 14px;
   padding: 30px 0 16px;
 }
@@ -192,7 +192,7 @@ tbody tr:hover { background: rgba(255, 253, 248, .75); }
 
 .library, .release { font-weight: 700; text-decoration: none; }
 .library span { color: var(--accent); }
-.crypto-tag {
+.status-tag {
   display: inline-block;
   margin-left: 8px;
   padding: 2px 6px;

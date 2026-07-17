@@ -27,7 +27,9 @@ test("renders the completed library report", async () => {
   assert.match(html, /Categories/);
   assert.match(html, /aria-sort="descending"/);
   assert.match(html, /Hide crypto-only/);
+  assert.match(html, /Hide archived/);
   assert.match(html, /Crypto-only/);
+  assert.match(html, /Archived/);
   assert.doesNotMatch(html, /codex-preview|loading skeleton/i);
 });
 
