@@ -38,7 +38,6 @@ main {
 }
 
 h1 {
-  max-width: 780px;
   margin: 0;
   font-family: Georgia, "Times New Roman", serif;
   font-size: clamp(40px, 6vw, 68px);
@@ -53,6 +52,12 @@ h1 {
   color: var(--muted);
   font-size: 17px;
   line-height: 1.6;
+}
+
+.lede a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 code {
