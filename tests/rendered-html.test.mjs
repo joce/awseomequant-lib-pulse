@@ -20,6 +20,7 @@ test("renders the completed library report", async () => {
   assert.match(html, /<title>Awesome Quant · Library pulse<\/title>/i);
   assert.match(html, /<h1>Awesome Quant · Library pulse<\/h1>/i);
   assert.match(html, /href="https:\/\/github\.com\/wilsonfreitas\/awesome-quant\/blob\/main\/README\.md"[^>]*>Awesome Quant README<\/a>/i);
+  assert.match(html, /Checked against GitHub on 16 July 2026/);
   assert.doesNotMatch(html, /class="eyebrow"/i);
   assert.match(html, /Showing[^<]*<!-- -->461/);
   assert.match(html, /Latest GitHub release/);

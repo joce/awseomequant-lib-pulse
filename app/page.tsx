@@ -137,8 +137,7 @@ export default function Home() {
             <a href={data.source} target="_blank" rel="noreferrer">
               Awesome Quant README
             </a>
-            ,
-            checked against GitHub on 16 July 2026.
+            <span className="lede-meta">Checked against GitHub on 16 July 2026.</span>
           </p>
         </div>
         <a className="source" href={data.source} target="_blank" rel="noreferrer">
