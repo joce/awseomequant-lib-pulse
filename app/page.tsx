@@ -13,6 +13,12 @@ const date = new Intl.DateTimeFormat("en", {
   year: "numeric",
   timeZone: "UTC",
 });
+const checkedDate = new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+}).format(new Date(data.as_of));
 
 const number = new Intl.NumberFormat("en");
 const cryptoOnlyRepositories = new Set(cryptoOnly);
@@ -137,7 +143,7 @@ export default function Home() {
             <a href={data.source} target="_blank" rel="noreferrer">
               Awesome Quant README
             </a>
-            <span className="lede-meta">Checked against GitHub on 16 July 2026.</span>
+            <span className="lede-meta">Checked against GitHub on {checkedDate}.</span>
           </p>
         </div>
         <a className="source" href={data.source} target="_blank" rel="noreferrer">

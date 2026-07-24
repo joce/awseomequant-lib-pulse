@@ -2,6 +2,13 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import test from "node:test";
 
+const date = new Intl.DateTimeFormat("en-GB", {
+  day: "numeric",
+  month: "long",
+  year: "numeric",
+  timeZone: "UTC",
+});
+
 async function render() {
   const workerUrl = new URL("../dist/server/index.js", import.meta.url);
   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
@@ -17,10 +24,12 @@ test("renders the completed library report", async () => {
   const response = await render();
   assert.equal(response.status, 200);
   const html = await response.text();
+  const text = html.replaceAll("<!-- -->", "");
   assert.match(html, /<title>Awesome Quant · Library pulse<\/title>/i);
   assert.match(html, /<h1>Awesome Quant · Library pulse<\/h1>/i);
   assert.match(html, /href="https:\/\/github\.com\/wilsonfreitas\/awesome-quant\/blob\/main\/README\.md"[^>]*>Awesome Quant README<\/a>/i);
-  assert.match(html, /Checked against GitHub on 16 July 2026/);
+  const data = await readFile(new URL("../app/libraries.json", import.meta.url), "utf8").then(JSON.parse);
+  assert.match(text, new RegExp(`Checked against GitHub on ${date.format(new Date(data.as_of))}`));
   assert.doesNotMatch(html, /class="eyebrow"/i);
   assert.match(html, /Showing[^<]*<!-- -->461/);
   assert.match(html, /Latest GitHub release/);
