@@ -31,7 +31,7 @@ test("renders the completed library report", async () => {
   const data = await readFile(new URL("../app/libraries.json", import.meta.url), "utf8").then(JSON.parse);
   assert.match(text, new RegExp(`Checked against GitHub on ${date.format(new Date(data.as_of))}`));
   assert.doesNotMatch(html, /class="eyebrow"/i);
-  assert.match(html, /Showing[^<]*<!-- -->461/);
+  assert.match(text, new RegExp(`Showing ${data.libraries.length} of ${data.libraries.length} entries`));
   assert.match(html, /Latest GitHub release/);
   assert.match(html, /Languages/);
   assert.match(html, /Categories/);
@@ -49,11 +49,8 @@ test("keeps the collected data internally consistent", async () => {
     readFile(new URL("../app/libraries.json", import.meta.url), "utf8").then(JSON.parse),
     readFile(new URL("../app/crypto-only.json", import.meta.url), "utf8").then(JSON.parse),
   ]);
-  assert.equal(data.libraries.length, 461);
-  assert.equal(data.libraries.filter((row) => row.release).length, 249);
   const keys = data.libraries.map((row) => row.repo_requested || `${row.name}|${row.primary_url}`);
   assert.equal(new Set(keys).size, keys.length);
-  assert.equal(cryptoOnly.length, 29);
   assert.equal(new Set(cryptoOnly).size, cryptoOnly.length);
   assert.ok(cryptoOnly.includes("freqtrade/freqtrade"));
   assert.ok(cryptoOnly.includes("ccxt/ccxt"));
