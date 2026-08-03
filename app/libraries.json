@@ -1,9 +1,9 @@
 {
-  "as_of": "2026-07-27T01:03:59+00:00",
+  "as_of": "2026-08-03T02:17:20+00:00",
   "source": "https://github.com/wilsonfreitas/awesome-quant/blob/main/README.md",
   "method": "GitHub GraphQL repository stars and newest published GitHub Release, including prereleases; HEAD/GET validation of primary and repository links.",
   "link_validation": {
-    "checked": 574,
+    "checked": 575,
     "failed": {
       "https://alphai.io/developers": "HTTPError: HTTP Error 405: Not Allowed",
       "https://edgarevents.com": "HTTPError: HTTP Error 530: <none>",
@@ -16,38 +16,7 @@
       "https://github.com/pratik-choudhari/nse-insights": "HTTPError: HTTP Error 404: Not Found",
       "https://github.com/sdrdis/bsedata": "HTTPError: HTTP Error 404: Not Found",
       "https://github.com/spfunctions/simplefunctions-cli": "HTTPError: HTTP Error 404: Not Found",
-      "https://github.com/tradingstrategy-ai/trading-strategy": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/tradingstrategy-ai/trading-strategy/": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/unageanu/jiji2": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/vdalhambra/financekit-mcp": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/vesper-astrena/polymarket-scanner-api": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/vnpy/vnpy": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/vollib/py_vollib": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/vollib/vollib": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/vsjha18/nsetools": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/wegamekinglc/VisualPortfolio": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/welcra/fsynth": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/whoareunot/btc-orderbook-research": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/wickra-lib/wickra": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/wilsonfreitas/R-bizdays": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/wilsonfreitas/R-fixedincome": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/wilsonfreitas/python-bcb": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/wilsonfreitas/python-bizdays": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/wilsonfreitas/rbcb": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/wol-fi/direct_vola": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/xKDR/TSFrames.jl": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/xlwings/xlwings": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/yahoo-finance/yahoo-finance": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/yahoofinancelive/yliveticker": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/yellowbean/AbsBox": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/ymyke/pypme": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/ymyke/tessa": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/ynouri/pysabr": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/yupoet/aurumq-rl": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/yutiansut/QUANTAXIS": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/yutiansut/QUANTAXIS_Webkit": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/yutiansut/quantaxis": "HTTPError: HTTP Error 429: Too Many Requests",
-      "https://github.com/zvtvz/zvt": "HTTPError: HTTP Error 429: Too Many Requests",
+      "https://github.com/vesper-astrena/polymarket-scanner-api": "HTTPError: HTTP Error 404: Not Found",
       "https://nikhilxsunder.github.io/edgar-sec/": "HTTPError: HTTP Error 404: Not Found",
       "https://swapapi.dev": "HTTPError: HTTP Error 404: Not Found"
     }
@@ -64,7 +33,7 @@
       "description": "— NumPy is the fundamental package for scientific computing with Python.",
       "repo": "numpy/numpy",
       "repo_url": "https://github.com/numpy/numpy",
-      "stars": 32435,
+      "stars": 32475,
       "archived": false,
       "release": {
         "tagName": "v2.5.1",
@@ -86,7 +55,7 @@
       "description": "— SciPy (pronounced “Sigh Pie”) is a Python-based ecosystem of open-source software for mathematics, science, and engineering.",
       "repo": "scipy/scipy",
       "repo_url": "https://github.com/scipy/scipy",
-      "stars": 14852,
+      "stars": 14877,
       "archived": false,
       "release": {
         "tagName": "v1.18.0",
@@ -108,7 +77,7 @@
       "description": "— pandas is an open source, BSD-licensed library providing high-performance, easy-to-use data structures and data analysis tools for the Python programming language.",
       "repo": "pandas-dev/pandas",
       "repo_url": "https://github.com/pandas-dev/pandas",
-      "stars": 49336,
+      "stars": 49398,
       "archived": false,
       "release": {
         "tagName": "v3.0.5",
@@ -130,14 +99,14 @@
       "description": "— Polars is a blazingly fast DataFrame library for manipulating structured data.",
       "repo": "pola-rs/polars",
       "repo_url": "https://github.com/pola-rs/polars",
-      "stars": 39110,
+      "stars": 39195,
       "archived": false,
       "release": {
-        "tagName": "py-1.43.0",
-        "publishedAt": "2026-07-21T04:30:53Z",
-        "createdAt": "2026-07-20T15:54:27Z",
+        "tagName": "py-1.43.2",
+        "publishedAt": "2026-08-01T06:28:55Z",
+        "createdAt": "2026-07-31T12:50:48Z",
         "isPrerelease": false,
-        "url": "https://github.com/pola-rs/polars/releases/tag/py-1.43.0"
+        "url": "https://github.com/pola-rs/polars/releases/tag/py-1.43.2"
       },
       "status": "released"
     },
@@ -184,7 +153,7 @@
       "description": "— SymPy is a Python library for symbolic mathematics.",
       "repo": "sympy/sympy",
       "repo_url": "https://github.com/sympy/sympy",
-      "stars": 14805,
+      "stars": 14824,
       "archived": false,
       "release": {
         "tagName": "1.14.0",
@@ -206,7 +175,7 @@
       "description": "— Probabilistic Programming in Python: Bayesian Modeling and Probabilistic Machine Learning with Theano.",
       "repo": "pymc-devs/pymc",
       "repo_url": "https://github.com/pymc-devs/pymc",
-      "stars": 9684,
+      "stars": 9695,
       "archived": false,
       "release": {
         "tagName": "v6.2.0",
@@ -250,14 +219,14 @@
       "description": "— High performance datastore for time series and tick data.",
       "repo": "man-group/ArcticDB",
       "repo_url": "https://github.com/man-group/ArcticDB",
-      "stars": 2437,
+      "stars": 2447,
       "archived": false,
       "release": {
-        "tagName": "v6.19.0",
-        "publishedAt": "2026-07-21T18:03:14Z",
-        "createdAt": "2026-07-21T12:53:55Z",
-        "isPrerelease": false,
-        "url": "https://github.com/man-group/ArcticDB/releases/tag/v6.19.0"
+        "tagName": "v6.21.0+man1",
+        "publishedAt": "2026-07-29T16:26:05Z",
+        "createdAt": "2026-07-29T09:01:56Z",
+        "isPrerelease": true,
+        "url": "https://github.com/man-group/ArcticDB/releases/tag/v6.21.0%2Bman1"
       },
       "status": "released"
     },
@@ -316,7 +285,7 @@
       "description": "— Extension of data.frame: Fast aggregation of large data (e.g. 100GB in RAM), fast ordered joins, fast add/modify/delete of columns by group using no copies at all, list columns and a fast file reader (fread). Offers a natural and flexible syntax, for faster development.",
       "repo": "Rdatatable/data.table",
       "repo_url": "https://github.com/Rdatatable/data.table",
-      "stars": 3904,
+      "stars": 3905,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -472,7 +441,7 @@
       "description": "— In-memory tabular data in Julia.",
       "repo": "JuliaData/DataFrames.jl",
       "repo_url": "https://github.com/JuliaData/DataFrames.jl",
-      "stars": 1831,
+      "stars": 1830,
       "archived": false,
       "release": {
         "tagName": "v1.8.2",
@@ -538,7 +507,7 @@
       "description": "— QuantLib's Python port.",
       "repo": "enthought/pyql",
       "repo_url": "https://github.com/enthought/pyql",
-      "stars": 1329,
+      "stars": 1331,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -570,7 +539,7 @@
       "description": "— vollib is a python library for calculating option prices, implied volatility and greeks.",
       "repo": "vollib/vollib",
       "repo_url": "https://github.com/vollib/vollib",
-      "stars": 1012,
+      "stars": 1013,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -586,7 +555,7 @@
       "description": "— vollib Python implementation.",
       "repo": "vollib/py_vollib",
       "repo_url": "https://github.com/vollib/py_vollib",
-      "stars": 419,
+      "stars": 420,
       "archived": false,
       "release": {
         "tagName": "v1.0.7",
@@ -608,7 +577,7 @@
       "description": "— Pricing analytics and Monte Carlo simulation for stochastic volatility models, including the log-normal SV model and the Heston model.",
       "repo": "ArturSepp/StochVolModels",
       "repo_url": "https://github.com/ArturSepp/StochVolModels",
-      "stars": 227,
+      "stars": 228,
       "archived": false,
       "release": {
         "tagName": "v1.2.2",
@@ -630,7 +599,7 @@
       "description": "— A framework for quantitative finance In python.",
       "repo": "jsmidt/QuantPy",
       "repo_url": "https://github.com/jsmidt/QuantPy",
-      "stars": 1045,
+      "stars": 1047,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -646,7 +615,7 @@
       "description": "— Python tools for Finance.",
       "repo": "alpha-miner/Finance-Python",
       "repo_url": "https://github.com/alpha-miner/Finance-Python",
-      "stars": 909,
+      "stars": 910,
       "archived": false,
       "release": {
         "tagName": "v0.9.8",
@@ -668,7 +637,7 @@
       "description": "— A financial function library for Python.",
       "repo": "pmorissette/ffn",
       "repo_url": "https://github.com/pmorissette/ffn",
-      "stars": 2629,
+      "stars": 2631,
       "archived": false,
       "release": {
         "tagName": "v1.1.5",
@@ -690,7 +659,7 @@
       "description": "— Lightweight Python library for assembling and analyzing financial data.",
       "repo": "GriffinAustin/pynance",
       "repo_url": "https://github.com/GriffinAustin/pynance",
-      "stars": 472,
+      "stars": 473,
       "archived": false,
       "release": {
         "tagName": "1.0.0",
@@ -728,7 +697,7 @@
       "description": "— SABR model Python implementation.",
       "repo": "ynouri/pysabr",
       "repo_url": "https://github.com/ynouri/pysabr",
-      "stars": 622,
+      "stars": 623,
       "archived": false,
       "release": {
         "tagName": "v0.2.0",
@@ -750,7 +719,7 @@
       "description": "— A Python Finance Library that focuses on the pricing and risk-management of Financial Derivatives, including fixed-income, equity, FX and credit derivatives.",
       "repo": "domokane/FinancePy",
       "repo_url": "https://github.com/domokane/FinancePy",
-      "stars": 3071,
+      "stars": 3080,
       "archived": false,
       "release": {
         "tagName": "V0.360",
@@ -772,7 +741,7 @@
       "description": "— Python toolkit for quantitative finance.",
       "repo": "goldmansachs/gs-quant",
       "repo_url": "https://github.com/goldmansachs/gs-quant",
-      "stars": 11614,
+      "stars": 11730,
       "archived": false,
       "release": {
         "tagName": "release-2.1.1",
@@ -794,7 +763,7 @@
       "description": "— Robust and flexible Python implementation of the willow tree lattice for derivatives pricing.",
       "repo": "federicomariamassari/willowtree",
       "repo_url": "https://github.com/federicomariamassari/willowtree",
-      "stars": 380,
+      "stars": 381,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -810,7 +779,7 @@
       "description": "— Applications of Monte Carlo methods to financial engineering projects, in Python.",
       "repo": "federicomariamassari/financial-engineering",
       "repo_url": "https://github.com/federicomariamassari/financial-engineering",
-      "stars": 541,
+      "stars": 543,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -826,7 +795,7 @@
       "description": "— A library for financial options pricing written in Python.",
       "repo": "dbrojas/optlib",
       "repo_url": "https://github.com/dbrojas/optlib",
-      "stars": 1621,
+      "stars": 1625,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -842,7 +811,7 @@
       "description": "— High-performance TensorFlow library for quantitative finance.",
       "repo": "google/tf-quant-finance",
       "repo_url": "https://github.com/google/tf-quant-finance",
-      "stars": 5454,
+      "stars": 5464,
       "archived": false,
       "release": {
         "tagName": "v0.0.1-dev9",
@@ -864,7 +833,7 @@
       "description": "— A Python library for mathematical finance.",
       "repo": "romanmichaelpaolucci/Q-Fin",
       "repo_url": "https://github.com/romanmichaelpaolucci/Q-Fin",
-      "stars": 647,
+      "stars": 648,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -880,7 +849,7 @@
       "description": "— Tools for pricing and plotting of vanilla option prices, greeks and various other analysis around them.",
       "repo": "quantsbin/Quantsbin",
       "repo_url": "https://github.com/quantsbin/Quantsbin",
-      "stars": 648,
+      "stars": 649,
       "archived": false,
       "release": {
         "tagName": "1.0.3",
@@ -984,7 +953,7 @@
       "description": "— A Python tool for quick calculations of a stock's fair value using Discounted Cash Flow analysis.",
       "repo": "akashaero/Intrinsic-Value-Calculator",
       "repo_url": "https://github.com/akashaero/Intrinsic-Value-Calculator",
-      "stars": 94,
+      "stars": 93,
       "archived": false,
       "release": {
         "tagName": "v0.3.1",
@@ -1022,7 +991,7 @@
       "description": "— A fixed income library for pricing bonds and bond futures, and derivatives such as IRS, cross-currency and FX swaps.",
       "repo": "attack68/rateslib",
       "repo_url": "https://github.com/attack68/rateslib",
-      "stars": 352,
+      "stars": 353,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -1079,11 +1048,11 @@
       "stars": 29,
       "archived": false,
       "release": {
-        "tagName": "v0.4.0",
-        "publishedAt": "2026-07-19T05:52:49Z",
-        "createdAt": "2026-07-19T04:22:55Z",
+        "tagName": "v0.5.0",
+        "publishedAt": "2026-07-27T11:48:16Z",
+        "createdAt": "2026-07-27T10:11:44Z",
         "isPrerelease": false,
-        "url": "https://github.com/joseprupi/quantraserver/releases/tag/v0.4.0"
+        "url": "https://github.com/joseprupi/quantraserver/releases/tag/v0.5.0"
       },
       "status": "released"
     },
@@ -1098,7 +1067,7 @@
       "description": "— A Python library for evaluating option trading strategies.",
       "repo": "rgaveiga/optionlab",
       "repo_url": "https://github.com/rgaveiga/optionlab",
-      "stars": 544,
+      "stars": 548,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -1136,7 +1105,7 @@
       "description": "— Free quant finance API with 63 deterministic endpoints + 15 free interactive calculators at . Options pricing with full Greeks, Monte Carlo, Kelly, VaR, Sharpe, CAGR, crypto liquidation, impermanent loss, plus live crypto volatility/funding data and 24/7 position monitoring with webhook alerts. 1,000 free calls/day, no API key.",
       "repo": "QuantOracledev/quantoracle",
       "repo_url": "https://github.com/QuantOracledev/quantoracle",
-      "stars": 9,
+      "stars": 10,
       "archived": false,
       "release": {
         "tagName": "v2.2.0",
@@ -1180,7 +1149,7 @@
       "description": "— RQuantLib connects GNU R with QuantLib.",
       "repo": "eddelbuettel/rquantlib",
       "repo_url": "https://github.com/eddelbuettel/rquantlib",
-      "stars": 135,
+      "stars": 136,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -1196,7 +1165,7 @@
       "description": "— Quantitative Financial Modelling Framework.",
       "repo": "joshuaulrich/quantmod",
       "repo_url": "https://github.com/joshuaulrich/quantmod",
-      "stars": 903,
+      "stars": 904,
       "archived": false,
       "release": {
         "tagName": "v0.4.29",
@@ -1644,7 +1613,7 @@
       "description": "— Java library with algorithms and methodologies related to mathematical finance.",
       "repo": "finmath/finmath-lib",
       "repo_url": "https://github.com/finmath/finmath-lib",
-      "stars": 581,
+      "stars": 580,
       "archived": false,
       "release": {
         "tagName": "finmath-lib-4.1.2",
@@ -1944,7 +1913,7 @@
       "description": "— Financial maths library for risk-neutral pricing and risk.",
       "repo": "MarcusRainbow/QuantMath",
       "repo_url": "https://github.com/MarcusRainbow/QuantMath",
-      "stars": 407,
+      "stars": 408,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -1960,7 +1929,7 @@
       "description": "— Quantitative finance library written in Rust.",
       "repo": "avhz/RustQuant",
       "repo_url": "https://github.com/avhz/RustQuant",
-      "stars": 1795,
+      "stars": 1796,
       "archived": false,
       "release": {
         "tagName": "RustQuant_stochastics-v0.4.0",
@@ -2014,7 +1983,7 @@
       "description": "— Common financial technical analysis indicators implemented in Pandas.",
       "repo": "peerchemist/finta",
       "repo_url": "https://github.com/peerchemist/finta",
-      "stars": 2262,
+      "stars": 2263,
       "archived": true,
       "release": {
         "tagName": "1.3",
@@ -2052,7 +2021,7 @@
       "description": "— A Python module for fitting the  model.",
       "repo": "Boulder-Investment-Technologies/lppls",
       "repo_url": "https://github.com/Boulder-Investment-Technologies/lppls",
-      "stars": 464,
+      "stars": 466,
       "archived": false,
       "release": {
         "tagName": "0.6.23",
@@ -2096,7 +2065,7 @@
       "description": "— A python library for computing technical analysis indicators on streaming data.",
       "repo": "mr-easy/streaming_indicators",
       "repo_url": "https://github.com/mr-easy/streaming_indicators",
-      "stars": 152,
+      "stars": 151,
       "archived": false,
       "release": {
         "tagName": "v0.1.8",
@@ -2118,7 +2087,7 @@
       "description": "— Python wrapper for TA-Lib (<http://ta-lib.org/>).",
       "repo": "TA-Lib/ta-lib-python",
       "repo_url": "https://github.com/TA-Lib/ta-lib-python",
-      "stars": 12141,
+      "stars": 12165,
       "archived": false,
       "release": {
         "tagName": "v0.7.1",
@@ -2140,7 +2109,7 @@
       "description": "— Technical Analysis Library using Pandas (Python).",
       "repo": "bukosabino/ta",
       "repo_url": "https://github.com/bukosabino/ta",
-      "stars": 5129,
+      "stars": 5135,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -2156,7 +2125,7 @@
       "description": "— Technical Analysis library in pandas for backtesting algotrading and quantitative analysis.",
       "repo": "mementum/bta-lib",
       "repo_url": "https://github.com/mementum/bta-lib",
-      "stars": 499,
+      "stars": 500,
       "archived": false,
       "release": {
         "tagName": "1.0.0",
@@ -2320,7 +2289,7 @@
       "description": "— A Java library for technical analysis.",
       "repo": "ta4j/ta4j",
       "repo_url": "https://github.com/ta4j/ta4j",
-      "stars": 2471,
+      "stars": 2475,
       "archived": false,
       "release": {
         "tagName": "0.23.0",
@@ -2342,7 +2311,7 @@
       "description": "— Indicator is a TypeScript module providing various stock technical analysis indicators, strategies, and a backtest framework for trading.",
       "repo": "cinar/indicatorts",
       "repo_url": "https://github.com/cinar/indicatorts",
-      "stars": 458,
+      "stars": 459,
       "archived": false,
       "release": {
         "tagName": "v2.2.2",
@@ -2380,7 +2349,7 @@
       "description": "— Orderflow trade aggregator for building Footprint Candles from exchange websocket data.",
       "repo": "tiagosiebler/orderflow",
       "repo_url": "https://github.com/tiagosiebler/orderflow",
-      "stars": 78,
+      "stars": 80,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -2396,14 +2365,14 @@
       "description": "— IndicatorGo is a Golang module providing various stock technical analysis indicators, strategies, and a backtest framework for trading.",
       "repo": "cinar/indicator",
       "repo_url": "https://github.com/cinar/indicator",
-      "stars": 1221,
+      "stars": 1222,
       "archived": false,
       "release": {
-        "tagName": "v2.1.33",
-        "publishedAt": "2026-06-08T12:58:44Z",
-        "createdAt": "2026-06-07T21:17:17Z",
+        "tagName": "v2.1.34",
+        "publishedAt": "2026-07-27T12:11:08Z",
+        "createdAt": "2026-07-23T15:25:42Z",
         "isPrerelease": false,
-        "url": "https://github.com/cinar/indicator/releases/tag/v2.1.33"
+        "url": "https://github.com/cinar/indicator/releases/tag/v2.1.34"
       },
       "status": "released"
     },
@@ -2418,7 +2387,7 @@
       "description": "— Aggregate trades into user-defined candles using information driven rules.",
       "repo": "MathisWellmann/trade_aggregation-rs",
       "repo_url": "https://github.com/MathisWellmann/trade_aggregation-rs",
-      "stars": 117,
+      "stars": 116,
       "archived": false,
       "release": {
         "tagName": "11.0",
@@ -2491,7 +2460,7 @@
       "description": "— Streaming-first technical-analysis library with a Rust core: 514 indicators updating in O(1) per tick, with bit-exact batch-vs-streaming results.",
       "repo": "wickra-lib/wickra",
       "repo_url": "https://github.com/wickra-lib/wickra",
-      "stars": 38,
+      "stars": 36,
       "archived": false,
       "release": {
         "tagName": "v0.9.9",
@@ -2561,14 +2530,14 @@
       "description": "— scikit-learn-compatible purged, group-purged, and combinatorial purged (CPCV) cross-validation, walk-forward splitting, and backtest-overfitting statistics (deflated and probabilistic Sharpe ratios, PBO, minimum backtest length) to prevent leakage and overfitting when backtesting trading strategies.",
       "repo": "eslazarev/purged-cross-validation",
       "repo_url": "https://github.com/eslazarev/purged-cross-validation",
-      "stars": 19,
+      "stars": 21,
       "archived": false,
       "release": {
-        "tagName": "v0.1.2",
-        "publishedAt": "2026-06-13T11:52:58Z",
-        "createdAt": "2026-06-13T11:52:50Z",
+        "tagName": "v0.1.3",
+        "publishedAt": "2026-08-01T17:08:42Z",
+        "createdAt": "2026-08-01T17:08:35Z",
         "isPrerelease": false,
-        "url": "https://github.com/eslazarev/purged-cross-validation/releases/tag/v0.1.2"
+        "url": "https://github.com/eslazarev/purged-cross-validation/releases/tag/v0.1.3"
       },
       "status": "released"
     },
@@ -2586,11 +2555,11 @@
       "stars": 5,
       "archived": false,
       "release": {
-        "tagName": "v1.24.1",
-        "publishedAt": "2026-07-25T09:05:38Z",
-        "createdAt": "2026-07-25T09:04:23Z",
+        "tagName": "v1.25.0",
+        "publishedAt": "2026-08-02T14:45:47Z",
+        "createdAt": "2026-08-02T14:44:06Z",
         "isPrerelease": false,
-        "url": "https://github.com/AlgoVaultLabs/crypto-quant-signal-mcp/releases/tag/v1.24.1"
+        "url": "https://github.com/AlgoVaultLabs/crypto-quant-signal-mcp/releases/tag/v1.25.0"
       },
       "status": "released"
     },
@@ -2621,7 +2590,7 @@
       "description": "— Unofficial CLI and async SDK for the Capital.com broker API: market data, guarded order execution, and real-time streaming.",
       "repo": "SimonTarara62/capitalcom-cli",
       "repo_url": "https://github.com/SimonTarara62/capitalcom-cli",
-      "stars": 2,
+      "stars": 1,
       "archived": false,
       "release": {
         "tagName": "v0.6.2",
@@ -2647,11 +2616,11 @@
       "stars": 24,
       "archived": false,
       "release": {
-        "tagName": "v0.6.0",
-        "publishedAt": "2026-07-16T08:36:34Z",
-        "createdAt": "2026-07-16T07:25:02Z",
+        "tagName": "v0.7.0",
+        "publishedAt": "2026-07-28T05:30:51Z",
+        "createdAt": "2026-07-28T03:24:59Z",
         "isPrerelease": false,
-        "url": "https://github.com/mirror29/inalpha/releases/tag/v0.6.0"
+        "url": "https://github.com/mirror29/inalpha/releases/tag/v0.7.0"
       },
       "status": "released"
     },
@@ -2742,7 +2711,7 @@
       "description": "— AI trading operating system with 9 ML models (RF, XGBoost, EMAformer, MOIRAI-2, Chronos-2, DDPM, PPO RL, GNN, LR) ranked by Sharpe ratio, Claude AI synthesis with dual-tier routing (~$0.003/analysis), real-time Next.js dashboard, Alpaca paper trading, and 277 automated tests.",
       "repo": "alex-jb/orallexa-ai-trading-agent",
       "repo_url": "https://github.com/alex-jb/orallexa-ai-trading-agent",
-      "stars": 60,
+      "stars": 59,
       "archived": false,
       "release": {
         "tagName": "v1.2.2",
@@ -2764,7 +2733,7 @@
       "description": "— Natural-language multi-agent finance research agent with 29 swarm presets, 70 skills, and 28 auto-discovered tools; 7 backtest engines covering A-shares/US/Crypto/Futures/Forex/Options plus a cross-market CompositeEngine with shared capital pool; 5-source auto-fallback data layer (tushare/okx/yfinance/akshare/ccxt); 17-tool MCP server; includes trade-journal behavioral diagnostics for 同花顺/东财/富途 exports.",
       "repo": "HKUDS/Vibe-Trading",
       "repo_url": "https://github.com/HKUDS/Vibe-Trading",
-      "stars": 27835,
+      "stars": 29342,
       "archived": false,
       "release": {
         "tagName": "v0.1.12",
@@ -2786,7 +2755,7 @@
       "description": "— AI crypto trading bot for Bybit with 70.9% walk-forward validated accuracy on out-of-sample data, LightGBM + XGBoost ensemble with 72 ML features.",
       "repo": "stefanoviana/deepalpha",
       "repo_url": "https://github.com/stefanoviana/deepalpha",
-      "stars": 37,
+      "stars": 38,
       "archived": false,
       "release": {
         "tagName": "v11.0",
@@ -2808,7 +2777,7 @@
       "description": "— Self-hosted execution engine for algorithmic trading bots. Write strategies in Python, TypeScript, Rust, C++, C#, Scala, or Haskell and deploy with one command. Each bot runs in an isolated container with scheduled or streaming execution.",
       "repo": "alexanderwanyoike/the0",
       "repo_url": "https://github.com/alexanderwanyoike/the0",
-      "stars": 321,
+      "stars": 324,
       "archived": false,
       "release": {
         "tagName": "v1.14.4",
@@ -2833,11 +2802,11 @@
       "stars": 0,
       "archived": false,
       "release": {
-        "tagName": "desktop-v0.3.3-rc2-beta",
-        "publishedAt": "2026-07-26T22:00:19Z",
+        "tagName": "desktop-v0.3.12-beta",
+        "publishedAt": "2026-08-01T14:30:52Z",
         "createdAt": "2026-07-13T21:20:06Z",
         "isPrerelease": true,
-        "url": "https://github.com/Autonomous-Asset-Management-Agents/autonomous_/releases/tag/desktop-v0.3.3-rc2-beta"
+        "url": "https://github.com/Autonomous-Asset-Management-Agents/autonomous_/releases/tag/desktop-v0.3.12-beta"
       },
       "status": "released"
     },
@@ -2852,7 +2821,7 @@
       "description": "— Framework for developing, backtesting, and deploying automated trading algorithms.",
       "repo": "coding-kitties/investing-algorithm-framework",
       "repo_url": "https://github.com/coding-kitties/investing-algorithm-framework",
-      "stars": 1602,
+      "stars": 1624,
       "archived": false,
       "release": {
         "tagName": "v8.10.0",
@@ -2874,14 +2843,14 @@
       "description": "— Algorithmic trading framework where the same code runs for backtesting and live trading across stocks, options, crypto, futures, and forex with multiple brokers including Alpaca, Interactive Brokers, Tradier, and Schwab.",
       "repo": "Lumiwealth/lumibot",
       "repo_url": "https://github.com/Lumiwealth/lumibot",
-      "stars": 1851,
+      "stars": 1875,
       "archived": false,
       "release": {
-        "tagName": "v4.5.78",
-        "publishedAt": "2026-07-16T19:16:56Z",
-        "createdAt": "2026-07-16T18:51:43Z",
+        "tagName": "v4.5.81",
+        "publishedAt": "2026-07-30T17:19:34Z",
+        "createdAt": "2026-07-30T17:14:48Z",
         "isPrerelease": false,
-        "url": "https://github.com/Lumiwealth/lumibot/releases/tag/v4.5.78"
+        "url": "https://github.com/Lumiwealth/lumibot/releases/tag/v4.5.81"
       },
       "status": "released"
     },
@@ -2896,7 +2865,7 @@
       "description": "— QSTrader backtesting simulation engine.",
       "repo": "mhallsmoore/qstrader",
       "repo_url": "https://github.com/mhallsmoore/qstrader",
-      "stars": 3421,
+      "stars": 3427,
       "archived": false,
       "release": {
         "tagName": "v0.3.0",
@@ -2918,7 +2887,7 @@
       "description": "— Fully integrated backtesting, paper trading, and live deployment.",
       "repo": "blankly-finance/blankly",
       "repo_url": "https://github.com/blankly-finance/blankly",
-      "stars": 2462,
+      "stars": 2463,
       "archived": false,
       "release": {
         "tagName": "v1.18.0-beta",
@@ -2940,7 +2909,7 @@
       "description": "— Pythonic algorithmic trading library.",
       "repo": "quantopian/zipline",
       "repo_url": "https://github.com/quantopian/zipline",
-      "stars": 20012,
+      "stars": 20021,
       "archived": false,
       "release": {
         "tagName": "1.4.1",
@@ -2962,7 +2931,7 @@
       "description": "— Zipline, a Pythonic Algorithmic Trading Library.",
       "repo": "stefan-jansen/zipline-reloaded",
       "repo_url": "https://github.com/stefan-jansen/zipline-reloaded",
-      "stars": 1844,
+      "stars": 1859,
       "archived": false,
       "release": {
         "tagName": "3.1.1",
@@ -3038,7 +3007,7 @@
       "description": "— Flexible Backtesting for Python.",
       "repo": "pmorissette/bt",
       "repo_url": "https://github.com/pmorissette/bt",
-      "stars": 2951,
+      "stars": 2956,
       "archived": false,
       "release": {
         "tagName": "v1.2.0",
@@ -3060,7 +3029,7 @@
       "description": "— Python Backtesting library for trading strategies.",
       "repo": "mementum/backtrader",
       "repo_url": "https://github.com/mementum/backtrader",
-      "stars": 22575,
+      "stars": 22688,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -3076,14 +3045,14 @@
       "description": "— Closed-form expected returns, Sharpe ratios, and skewness of trend-following systems, with complete implementations and multi-decade futures backtests.",
       "repo": "ArturSepp/TrendFollowingSystems",
       "repo_url": "https://github.com/ArturSepp/TrendFollowingSystems",
-      "stars": 6,
+      "stars": 16,
       "archived": false,
       "release": {
-        "tagName": "v1.0.3",
-        "publishedAt": "2026-07-22T16:06:27Z",
-        "createdAt": "2026-07-22T16:04:42Z",
+        "tagName": "v1.0.5",
+        "publishedAt": "2026-08-01T18:07:34Z",
+        "createdAt": "2026-08-01T15:37:28Z",
         "isPrerelease": false,
-        "url": "https://github.com/ArturSepp/TrendFollowingSystems/releases/tag/v1.0.3"
+        "url": "https://github.com/ArturSepp/TrendFollowingSystems/releases/tag/v1.0.5"
       },
       "status": "released"
     },
@@ -3200,7 +3169,7 @@
       "description": "— Python library for backtesting trading strategies and analyzing financial markets.",
       "repo": "cuemacro/finmarketpy",
       "repo_url": "https://github.com/cuemacro/finmarketpy",
-      "stars": 3796,
+      "stars": 3800,
       "archived": false,
       "release": {
         "tagName": "v0.11.19",
@@ -3238,7 +3207,7 @@
       "description": "— the project using big-data technology to provide an uniform way to analyze the whole market.",
       "repo": "foolcage/fooltrader",
       "repo_url": "https://github.com/foolcage/fooltrader",
-      "stars": 1195,
+      "stars": 1197,
       "archived": false,
       "release": {
         "tagName": "0.1.0",
@@ -3260,7 +3229,7 @@
       "description": "— the project using sql, pandas to provide an uniform and extendable way to record data, computing factors, select securities, backtesting, realtime trading and it could show all of them in clearly charts in realtime.",
       "repo": "zvtvz/zvt",
       "repo_url": "https://github.com/zvtvz/zvt",
-      "stars": 4246,
+      "stars": 4255,
       "archived": false,
       "release": {
         "tagName": "v0.13.5",
@@ -3342,7 +3311,7 @@
       "description": "— Vectorized backtester and trading engine for QuantRocket based on Pandas.",
       "repo": "quantrocket-llc/moonshot",
       "repo_url": "https://github.com/quantrocket-llc/moonshot",
-      "stars": 267,
+      "stars": 268,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -3390,7 +3359,7 @@
       "description": "— A backtester and spreadsheet library for security analysis.",
       "repo": "fja05680/pinkfish",
       "repo_url": "https://github.com/fja05680/pinkfish",
-      "stars": 302,
+      "stars": 301,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -3406,7 +3375,7 @@
       "description": "— AI-powered stock analysis system with 13 specialized agents, automated trading via KIS API, supporting Korean & US markets.",
       "repo": "dragon1086/prism-insight",
       "repo_url": "https://github.com/dragon1086/prism-insight",
-      "stars": 688,
+      "stars": 712,
       "archived": false,
       "release": {
         "tagName": "v2.19.0",
@@ -3428,7 +3397,7 @@
       "description": "— AI-powered financial intelligence engine with 8 master strategies across US, CN, and HK markets. Multi-agent architecture with +29.1% annual alpha. 227 tests.",
       "repo": "NeuZhou/stratevo",
       "repo_url": "https://github.com/NeuZhou/stratevo",
-      "stars": 25,
+      "stars": 27,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -3444,7 +3413,7 @@
       "description": "— AI-powered Taiwan stock scanner for all 1,900+ TWSE/TPEX listed stocks; chips module (T86 institutional net buy/sell + TDCC 16-tier retail distribution), 13 technical indicators scored 0–100, ATR Chandelier signals with TP1/TP2, dark three.js HUD dashboard. 100% free open data, ~110 unit tests, no API key required.",
       "repo": "carsonchou/tw-stock-radar",
       "repo_url": "https://github.com/carsonchou/tw-stock-radar",
-      "stars": 3,
+      "stars": 4,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -3460,7 +3429,7 @@
       "description": "— Async Algorithmic Trading Engine.",
       "repo": "AsyncAlgoTrading/aat",
       "repo_url": "https://github.com/AsyncAlgoTrading/aat",
-      "stars": 826,
+      "stars": 827,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -3476,7 +3445,7 @@
       "description": "— Backtest trading strategies in Python.",
       "repo": "kernc/backtesting.py",
       "repo_url": "https://github.com/kernc/backtesting.py",
-      "stars": 8717,
+      "stars": 8749,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -3508,7 +3477,7 @@
       "description": "— Portfolio analytics for quants, written in Python.",
       "repo": "ranaroussi/quantstats",
       "repo_url": "https://github.com/ranaroussi/quantstats",
-      "stars": 7484,
+      "stars": 7511,
       "archived": false,
       "release": {
         "tagName": "v0.0.81",
@@ -3530,14 +3499,14 @@
       "description": "— Modern variation of quantstats, with additional features and performance improvements.",
       "repo": "Jebel-Quant/jquantstats",
       "repo_url": "https://github.com/Jebel-Quant/jquantstats",
-      "stars": 43,
+      "stars": 42,
       "archived": false,
       "release": {
-        "tagName": "v0.9.7",
-        "publishedAt": "2026-07-10T07:06:09Z",
-        "createdAt": "2026-07-10T06:55:54Z",
+        "tagName": "v0.10.0",
+        "publishedAt": "2026-07-29T16:18:05Z",
+        "createdAt": "2026-07-29T16:06:47Z",
         "isPrerelease": false,
-        "url": "https://github.com/Jebel-Quant/jquantstats/releases/tag/v0.9.7"
+        "url": "https://github.com/Jebel-Quant/jquantstats/releases/tag/v0.10.0"
       },
       "status": "released"
     },
@@ -3552,7 +3521,7 @@
       "description": "— QTPyLib, Pythonic Algorithmic Trading <http://qtpylib.io>.",
       "repo": "ranaroussi/qtpylib",
       "repo_url": "https://github.com/ranaroussi/qtpylib",
-      "stars": 2268,
+      "stars": 2267,
       "archived": true,
       "release": null,
       "status": "no-github-release"
@@ -3590,14 +3559,14 @@
       "description": "— Free, open source crypto trading bot.",
       "repo": "freqtrade/freqtrade",
       "repo_url": "https://github.com/freqtrade/freqtrade",
-      "stars": 52656,
+      "stars": 52852,
       "archived": false,
       "release": {
-        "tagName": "2026.6",
-        "publishedAt": "2026-06-29T12:29:39Z",
-        "createdAt": "2026-06-29T12:28:43Z",
+        "tagName": "2026.7",
+        "publishedAt": "2026-07-31T18:04:13Z",
+        "createdAt": "2026-07-31T18:03:32Z",
         "isPrerelease": false,
-        "url": "https://github.com/freqtrade/freqtrade/releases/tag/2026.6"
+        "url": "https://github.com/freqtrade/freqtrade/releases/tag/2026.7"
       },
       "status": "released"
     },
@@ -3612,7 +3581,7 @@
       "description": "— Free `pandas` and `scikit-learn` resources for trading simulation, backtesting, and machine learning on financial data.",
       "repo": "chrisconlan/algorithmic-trading-with-python",
       "repo_url": "https://github.com/chrisconlan/algorithmic-trading-with-python",
-      "stars": 3414,
+      "stars": 3416,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -3628,7 +3597,7 @@
       "description": "— An AI-oriented Quantitative Investment Platform by Microsoft. Full ML pipeline of data processing, model training, back-testing; and covers the entire chain of quantitative investment: alpha seeking, risk modeling, portfolio optimization, and order execution.",
       "repo": "microsoft/qlib",
       "repo_url": "https://github.com/microsoft/qlib",
-      "stars": 46689,
+      "stars": 46947,
       "archived": false,
       "release": {
         "tagName": "v0.9.7",
@@ -3666,7 +3635,7 @@
       "description": "— Code and resources for Machine Learning for Algorithmic Trading.",
       "repo": "stefan-jansen/machine-learning-for-trading",
       "repo_url": "https://github.com/stefan-jansen/machine-learning-for-trading",
-      "stars": 20111,
+      "stars": 20248,
       "archived": false,
       "release": {
         "tagName": "v3.0.0-artifacts",
@@ -3688,7 +3657,7 @@
       "description": "— Automated Machine Learning [AutoML] with Python, scikit-learn, Keras, XGBoost, LightGBM, and CatBoost.",
       "repo": "ScottfreeLLC/AlphaPy",
       "repo_url": "https://github.com/ScottfreeLLC/AlphaPy",
-      "stars": 1738,
+      "stars": 1740,
       "archived": false,
       "release": {
         "tagName": "2.5.0",
@@ -3710,7 +3679,7 @@
       "description": "— An advanced crypto trading bot written in Python.",
       "repo": "jesse-ai/jesse",
       "repo_url": "https://github.com/jesse-ai/jesse",
-      "stars": 8244,
+      "stars": 8282,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -3726,7 +3695,7 @@
       "description": "— A extendable, replaceable Python algorithmic backtest && trading framework supporting multiple securities.",
       "repo": "ricequant/rqalpha",
       "repo_url": "https://github.com/ricequant/rqalpha",
-      "stars": 6614,
+      "stars": 6637,
       "archived": false,
       "release": {
         "tagName": "release/6.3.0",
@@ -3748,7 +3717,7 @@
       "description": "— A Deep Reinforcement Learning Library for Automated Trading in Quantitative Finance. NeurIPS 2020.",
       "repo": "AI4Finance-Foundation/FinRL",
       "repo_url": "https://github.com/AI4Finance-Foundation/FinRL",
-      "stars": 15818,
+      "stars": 15896,
       "archived": false,
       "release": {
         "tagName": "v0.3.8",
@@ -3770,7 +3739,7 @@
       "description": "— Reinforcement learning stock-selection framework for the China A-share market with multi-source factor input (alpha101 + main-force flow + hot-money seats + northbound + institutional + fundamentals), board-aware price limits, and ONNX CPU inference.",
       "repo": "yupoet/aurumq-rl",
       "repo_url": "https://github.com/yupoet/aurumq-rl",
-      "stars": 28,
+      "stars": 35,
       "archived": false,
       "release": {
         "tagName": "v0.2.0",
@@ -3792,7 +3761,7 @@
       "description": "— Deep Learning based Python Library for Stock Market Prediction and Modelling.",
       "repo": "achillesrasquinha/bulbea",
       "repo_url": "https://github.com/achillesrasquinha/bulbea",
-      "stars": 2316,
+      "stars": 2317,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -3808,7 +3777,7 @@
       "description": "— Automated trading system for NOPE strategy over IBKR TWS.",
       "repo": "ajhpark/ib_nope",
       "repo_url": "https://github.com/ajhpark/ib_nope",
-      "stars": 33,
+      "stars": 34,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -3824,14 +3793,14 @@
       "description": "— Open source cryptocurrency trading bot for high frequency, arbitrage, TA and social trading with an advanced web interface.",
       "repo": "Drakkar-Software/OctoBot",
       "repo_url": "https://github.com/Drakkar-Software/OctoBot",
-      "stars": 6264,
+      "stars": 6284,
       "archived": false,
       "release": {
-        "tagName": "2.1.1",
-        "publishedAt": "2026-03-30T09:31:08Z",
-        "createdAt": "2026-03-29T15:18:29Z",
+        "tagName": "3.0.0-beta1",
+        "publishedAt": "2026-07-30T18:58:50Z",
+        "createdAt": "2026-07-30T09:45:13Z",
         "isPrerelease": false,
-        "url": "https://github.com/Drakkar-Software/OctoBot/releases/tag/2.1.1"
+        "url": "https://github.com/Drakkar-Software/OctoBot/releases/tag/3.0.0-beta1"
       },
       "status": "released"
     },
@@ -3863,7 +3832,7 @@
       "description": "— Gathers machine learning and deep learning models for Stock forecasting including trading bots and simulations.",
       "repo": "huseinzol05/Stock-Prediction-Models",
       "repo_url": "https://github.com/huseinzol05/Stock-Prediction-Models",
-      "stars": 9469,
+      "stars": 9478,
       "archived": true,
       "release": null,
       "status": "no-github-release"
@@ -3879,7 +3848,7 @@
       "description": "— A Python-based development platform for automated trading systems - from backtesting to optimization to livetrading.",
       "repo": "kieran-mackle/AutoTrader",
       "repo_url": "https://github.com/kieran-mackle/AutoTrader",
-      "stars": 1273,
+      "stars": 1270,
       "archived": true,
       "release": null,
       "status": "no-github-release"
@@ -3917,7 +3886,7 @@
       "description": "— QF-Lib is a Python library that provides high quality tools for quantitative finance.",
       "repo": "quarkfin/qf-lib",
       "repo_url": "https://github.com/quarkfin/qf-lib",
-      "stars": 951,
+      "stars": 952,
       "archived": false,
       "release": {
         "tagName": "v4.0.6",
@@ -3939,7 +3908,7 @@
       "description": "— Gather data and trade equities, options, and ETFs via TDAmeritrade.",
       "repo": "alexgolec/tda-api",
       "repo_url": "https://github.com/alexgolec/tda-api",
-      "stars": 1320,
+      "stars": 1321,
       "archived": false,
       "release": {
         "tagName": "v1.6.0",
@@ -3961,7 +3930,7 @@
       "description": "— Find your trading edge, using a powerful toolkit for backtesting, algorithmic trading, and research.",
       "repo": "polakowo/vectorbt",
       "repo_url": "https://github.com/polakowo/vectorbt",
-      "stars": 8440,
+      "stars": 8554,
       "archived": false,
       "release": {
         "tagName": "v1.1.0",
@@ -3984,7 +3953,7 @@
       "description": "— Lean Algorithmic Trading Engine by QuantConnect (Python, C#).",
       "repo": "QuantConnect/Lean",
       "repo_url": "https://github.com/QuantConnect/Lean",
-      "stars": 20856,
+      "stars": 21027,
       "archived": false,
       "release": {
         "tagName": "v2.4.0.1",
@@ -4006,7 +3975,7 @@
       "description": "— pysystemtrade is the open source version of Robert Carver's backtesting and trading engine that implements systems according to the framework outlined in his book \"Systematic Trading\", which is further developed on his .",
       "repo": "pst-group/pysystemtrade",
       "repo_url": "https://github.com/pst-group/pysystemtrade",
-      "stars": 3409,
+      "stars": 3419,
       "archived": false,
       "release": {
         "tagName": "1.8.2",
@@ -4028,7 +3997,7 @@
       "description": "— Detect trend in time series, drawdown, drawdown within a constant look-back window , maximum drawdown, time underwater.",
       "repo": "rafa-rod/pytrendseries",
       "repo_url": "https://github.com/rafa-rod/pytrendseries",
-      "stars": 169,
+      "stars": 168,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -4060,7 +4029,7 @@
       "description": "— Algorithmic Trading with Machine Learning.",
       "repo": "edtechre/pybroker",
       "repo_url": "https://github.com/edtechre/pybroker",
-      "stars": 3461,
+      "stars": 3465,
       "archived": false,
       "release": {
         "tagName": "v1.2.13",
@@ -4082,7 +4051,7 @@
       "description": "— A quant framework to create cryptocurrencies strategies - from backtesting to optimization to livetrading.",
       "repo": "Drakkar-Software/OctoBot-Script",
       "repo_url": "https://github.com/Drakkar-Software/OctoBot-Script",
-      "stars": 45,
+      "stars": 46,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -4098,7 +4067,7 @@
       "description": "— A high-frequency trading and market-making backtesting tool accounts for limit orders, queue positions, and latencies, utilizing full tick data for trades and order books.",
       "repo": "nkaz001/hftbacktest",
       "repo_url": "https://github.com/nkaz001/hftbacktest",
-      "stars": 4313,
+      "stars": 4332,
       "archived": false,
       "release": {
         "tagName": "rust-v0.9.4",
@@ -4136,7 +4105,7 @@
       "description": "— VeighNa is a Python-based open source quantitative trading system development framework.",
       "repo": "vnpy/vnpy",
       "repo_url": "https://github.com/vnpy/vnpy",
-      "stars": 43921,
+      "stars": 44145,
       "archived": false,
       "release": {
         "tagName": "4.4.0",
@@ -4158,7 +4127,7 @@
       "description": "— Automatically generating signals and trading based on machine learning and feature engineering.",
       "repo": "asavinov/intelligent-trading-bot",
       "repo_url": "https://github.com/asavinov/intelligent-trading-bot",
-      "stars": 1831,
+      "stars": 1840,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -4174,7 +4143,7 @@
       "description": "— fastquant allows you to easily backtest investment strategies with as few as 3 lines of python code.",
       "repo": "enzoampil/fastquant",
       "repo_url": "https://github.com/enzoampil/fastquant",
-      "stars": 1751,
+      "stars": 1753,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -4191,14 +4160,14 @@
       "description": "— A high-performance algorithmic trading platform and event-driven backtester.",
       "repo": "nautechsystems/nautilus_trader",
       "repo_url": "https://github.com/nautechsystems/nautilus_trader",
-      "stars": 25031,
+      "stars": 25214,
       "archived": false,
       "release": {
-        "tagName": "v1.230.0",
-        "publishedAt": "2026-06-29T12:06:45Z",
-        "createdAt": "2026-06-29T11:46:47Z",
+        "tagName": "v1.231.0",
+        "publishedAt": "2026-08-02T18:53:49Z",
+        "createdAt": "2026-08-02T13:40:13Z",
         "isPrerelease": false,
-        "url": "https://github.com/nautechsystems/nautilus_trader/releases/tag/v1.230.0"
+        "url": "https://github.com/nautechsystems/nautilus_trader/releases/tag/v1.231.0"
       },
       "status": "released"
     },
@@ -4235,7 +4204,7 @@
       "description": "— TradingStrategy.ai is a market data, backtesting, live trading and investor management framework for decentralised finance.",
       "repo": "tradingstrategy-ai/getting-started",
       "repo_url": "https://github.com/tradingstrategy-ai/getting-started",
-      "stars": 237,
+      "stars": 238,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -4252,7 +4221,7 @@
       "description": "— A base on Python/C++ open source high-performance quant framework for faster analysis and backtesting, contains the complete trading system components for reuse and combination.",
       "repo": "fasiondog/hikyuu",
       "repo_url": "https://github.com/fasiondog/hikyuu",
-      "stars": 3378,
+      "stars": 3413,
       "archived": false,
       "release": {
         "tagName": "2.8.1",
@@ -4274,7 +4243,7 @@
       "description": "— A high performance, low-latency backtesting engine for testing quantitative trading strategies on historical and live data in Rust.",
       "repo": "jensnesten/rust_bt",
       "repo_url": "https://github.com/jensnesten/rust_bt",
-      "stars": 82,
+      "stars": 84,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -4290,7 +4259,7 @@
       "description": "— Toolkit for quantitative trading analysis. It integrates an advanced market screener, a multi-strategy, multi-asset backtesting engine. Use with built-in GUI or through CLI.",
       "repo": "GuntharDeNiro/gunbot-quant",
       "repo_url": "https://github.com/GuntharDeNiro/gunbot-quant",
-      "stars": 53,
+      "stars": 54,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -4306,7 +4275,7 @@
       "description": "— An open‑source, broker‑agnostic Python library that lets you seamlessly deploy strategies from any major backtesting engine to live (or paper) trading with zero code changes and built‑in safety controls.",
       "repo": "StrateQueue/StrateQueue",
       "repo_url": "https://github.com/StrateQueue/StrateQueue",
-      "stars": 211,
+      "stars": 210,
       "archived": false,
       "release": {
         "tagName": "v0.5.1",
@@ -4360,14 +4329,14 @@
       "description": "— AI-powered SDK featuring algorithmic trading, backtesting, deployment on 100+ exchanges, and multiple optimization engines.",
       "repo": "squidKid-deluxe/QTradeX-Algo-Trading-SDK",
       "repo_url": "https://github.com/squidKid-deluxe/QTradeX-Algo-Trading-SDK",
-      "stars": 83,
+      "stars": 82,
       "archived": false,
       "release": {
-        "tagName": "1.7.0",
-        "publishedAt": "2026-07-23T18:14:52Z",
-        "createdAt": "2026-07-19T19:25:40Z",
+        "tagName": "1.8.0",
+        "publishedAt": "2026-07-30T16:39:45Z",
+        "createdAt": "2026-07-30T15:59:12Z",
         "isPrerelease": false,
-        "url": "https://github.com/squidKid-deluxe/QTradeX-Algo-Trading-SDK/releases/tag/1.7.0"
+        "url": "https://github.com/squidKid-deluxe/QTradeX-Algo-Trading-SDK/releases/tag/1.8.0"
       },
       "status": "released"
     },
@@ -4550,7 +4519,7 @@
       "description": "— Integrated Quantitative Toolbox with Matlab.",
       "repo": "yutiansut/QUANTAXIS",
       "repo_url": "https://github.com/yutiansut/QUANTAXIS",
-      "stars": 10933,
+      "stars": 10967,
       "archived": false,
       "release": {
         "tagName": "latest",
@@ -4650,14 +4619,14 @@
       "description": "— A JavaScript / Python / PHP cryptocurrency trading API with support for more than 100 bitcoin/altcoin exchanges.",
       "repo": "ccxt/ccxt",
       "repo_url": "https://github.com/ccxt/ccxt",
-      "stars": 43407,
+      "stars": 43498,
       "archived": false,
       "release": {
-        "tagName": "v4.5.68",
-        "publishedAt": "2026-07-22T13:48:21Z",
-        "createdAt": "2026-07-22T13:48:16Z",
+        "tagName": "v4.5.70",
+        "publishedAt": "2026-07-29T13:24:31Z",
+        "createdAt": "2026-07-29T13:24:26Z",
         "isPrerelease": false,
-        "url": "https://github.com/ccxt/ccxt/releases/tag/v4.5.68"
+        "url": "https://github.com/ccxt/ccxt/releases/tag/v4.5.70"
       },
       "status": "released"
     },
@@ -4726,7 +4695,7 @@
       "description": "— From Idea to Execution - Manage your trading operation across a globally distributed cluster.",
       "repo": "fremantle-industries/workbench",
       "repo_url": "https://github.com/fremantle-industries/workbench",
-      "stars": 121,
+      "stars": 122,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -4802,7 +4771,7 @@
       "description": "— A production-grade, lock-free, high-frequency trading matching engine achieving 150M+ orders/sec.",
       "repo": "PIYUSH-KUMAR1809/order-matching-engine",
       "repo_url": "https://github.com/PIYUSH-KUMAR1809/order-matching-engine",
-      "stars": 153,
+      "stars": 155,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -4818,7 +4787,7 @@
       "description": "— A C++ CTP trading framework, with very clear logic.",
       "repo": "pegasusTrader/PandoraTrader",
       "repo_url": "https://github.com/pegasusTrader/PandoraTrader",
-      "stars": 1446,
+      "stars": 1449,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -4834,7 +4803,7 @@
       "description": "— C++23 FIX protocol engine with zero-copy parsing and SIMD acceleration, 3x faster than QuickFIX.",
       "repo": "StratCraftsAI/NexusFix",
       "repo_url": "https://github.com/StratCraftsAI/NexusFix",
-      "stars": 94,
+      "stars": 97,
       "archived": false,
       "release": {
         "tagName": "v0.2.4",
@@ -4856,7 +4825,7 @@
       "description": "— Algorithmic trading and quantitative trading open source platform to develop trading robots (stock markets, forex, crypto, bitcoins, and options).",
       "repo": "StockSharp/StockSharp",
       "repo_url": "https://github.com/StockSharp/StockSharp",
-      "stars": 10423,
+      "stars": 10463,
       "archived": false,
       "release": {
         "tagName": "5.0.0",
@@ -4900,7 +4869,7 @@
       "description": "— Open-source Rust framework for building event-driven live-trading & backtesting systems.",
       "repo": "barter-rs/barter-rs",
       "repo_url": "https://github.com/barter-rs/barter-rs",
-      "stars": 2209,
+      "stars": 2212,
       "archived": false,
       "release": {
         "tagName": "barter-integration-v0.11.0",
@@ -4922,7 +4891,7 @@
       "description": "— Simulated perpetual futures exchange to trade your strategy against.",
       "repo": "MathisWellmann/lfest-rs",
       "repo_url": "https://github.com/MathisWellmann/lfest-rs",
-      "stars": 83,
+      "stars": 82,
       "archived": false,
       "release": {
         "tagName": "0.138.0",
@@ -4961,7 +4930,7 @@
       "description": "— Open-source self-hosted AI trading signal platform. Generates buy/sell signals using RSI, MACD, EMA, Bollinger Bands for forex, crypto and commodities. Deployable via Docker Compose. ()",
       "repo": "naimkatiman/tradeclaw",
       "repo_url": "https://github.com/naimkatiman/tradeclaw",
-      "stars": 35,
+      "stars": 37,
       "archived": false,
       "release": {
         "tagName": "v0.4.0",
@@ -5045,7 +5014,7 @@
       "description": "— An agentic framework that mimics the real quant trading pipeline to find alpha: economic hypothesis, in-sample iteration, and out-of-sample validation.",
       "repo": "arteemg/AutoHypothesis",
       "repo_url": "https://github.com/arteemg/AutoHypothesis",
-      "stars": 69,
+      "stars": 70,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -5061,7 +5030,7 @@
       "description": "— Python library for portfolio optimization built on top of scikit-learn. It provides a unified interface and sklearn compatible tools to build, tune and cross-validate portfolio models.",
       "repo": "skfolio/skfolio",
       "repo_url": "https://github.com/skfolio/skfolio",
-      "stars": 2061,
+      "stars": 2088,
       "archived": false,
       "release": {
         "tagName": "v0.20.1",
@@ -5083,7 +5052,7 @@
       "description": "— Financial portfolio optimization in python, including classical efficient frontier and advanced methods.",
       "repo": "PyPortfolio/PyPortfolioOpt",
       "repo_url": "https://github.com/PyPortfolio/PyPortfolioOpt",
-      "stars": 5895,
+      "stars": 5934,
       "archived": false,
       "release": {
         "tagName": "v1.6.0",
@@ -5105,14 +5074,14 @@
       "description": "— Sparse multi-asset factor models with cell-level sign constraints, prior-centred shrinkage, and hierarchical clustering group LASSO (HCGL); scikit-learn compatible.",
       "repo": "ArturSepp/factorlasso",
       "repo_url": "https://github.com/ArturSepp/factorlasso",
-      "stars": 21,
+      "stars": 22,
       "archived": false,
       "release": {
-        "tagName": "v0.10.1",
-        "publishedAt": "2026-07-24T16:16:12Z",
-        "createdAt": "2026-07-24T15:02:45Z",
+        "tagName": "v0.12.0",
+        "publishedAt": "2026-08-01T07:07:59Z",
+        "createdAt": "2026-08-01T07:00:18Z",
         "isPrerelease": false,
-        "url": "https://github.com/ArturSepp/factorlasso/releases/tag/v0.10.1"
+        "url": "https://github.com/ArturSepp/factorlasso/releases/tag/v0.12.0"
       },
       "status": "released"
     },
@@ -5127,14 +5096,14 @@
       "description": "— Optimisation analytics for constructing and backtesting optimal multi-asset portfolios: covariance estimation, rolling optimisation, and performance reporting in one pipeline.",
       "repo": "ArturSepp/OptimalPortfolios",
       "repo_url": "https://github.com/ArturSepp/OptimalPortfolios",
-      "stars": 81,
+      "stars": 83,
       "archived": false,
       "release": {
-        "tagName": "v6.2.0",
-        "publishedAt": "2026-07-17T13:01:22Z",
-        "createdAt": "2026-07-17T12:58:44Z",
+        "tagName": "v6.8.0",
+        "publishedAt": "2026-08-02T10:47:08Z",
+        "createdAt": "2026-08-02T10:21:40Z",
         "isPrerelease": false,
-        "url": "https://github.com/ArturSepp/OptimalPortfolios/releases/tag/v6.2.0"
+        "url": "https://github.com/ArturSepp/OptimalPortfolios/releases/tag/v6.8.0"
       },
       "status": "released"
     },
@@ -5149,7 +5118,7 @@
       "description": "— Eiten is an open source toolkit by Tradytics that implements various statistical and algorithmic investing strategies such as Eigen Portfolios, Minimum Variance Portfolios, Maximum Sharpe Ratio Portfolios, and Genetic Algorithms based Portfolios.",
       "repo": "tradytics/eiten",
       "repo_url": "https://github.com/tradytics/eiten",
-      "stars": 3262,
+      "stars": 3267,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -5187,7 +5156,7 @@
       "description": "— Implementations regarding \"Advances in Financial Machine Learning\" by Marcos Lopez de Prado. (Feature Engineering, Financial Data Structures, Meta-Labeling).",
       "repo": "hudson-and-thames/mlfinlab",
       "repo_url": "https://github.com/hudson-and-thames/mlfinlab",
-      "stars": 4886,
+      "stars": 4896,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -5203,7 +5172,7 @@
       "description": "— Portfolio optimization with deep learning.",
       "repo": "jankrepl/deepdow",
       "repo_url": "https://github.com/jankrepl/deepdow",
-      "stars": 1176,
+      "stars": 1180,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -5263,7 +5232,7 @@
       "description": "— Portfolio and risk analytics in Python.",
       "repo": "quantopian/pyfolio",
       "repo_url": "https://github.com/quantopian/pyfolio",
-      "stars": 6379,
+      "stars": 6385,
       "archived": false,
       "release": {
         "tagName": "0.9.2",
@@ -5307,7 +5276,7 @@
       "description": "— Common financial risk and performance metrics.",
       "repo": "quantopian/empyrical",
       "repo_url": "https://github.com/quantopian/empyrical",
-      "stars": 1503,
+      "stars": 1504,
       "archived": false,
       "release": {
         "tagName": "0.5.5",
@@ -5409,7 +5378,7 @@
       "description": "— Collection of algorithms for online portfolio selection.",
       "repo": "Marigold/universal-portfolios",
       "repo_url": "https://github.com/Marigold/universal-portfolios",
-      "stars": 859,
+      "stars": 858,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -5425,7 +5394,7 @@
       "description": "— A program for financial portfolio management, analysis and optimization.",
       "repo": "fmilthaler/FinQuant",
       "repo_url": "https://github.com/fmilthaler/FinQuant",
-      "stars": 1799,
+      "stars": 1806,
       "archived": false,
       "release": {
         "tagName": "v0.7.0",
@@ -5491,7 +5460,7 @@
       "description": "— Portfolio Optimization and Quantitative Strategic Asset Allocation in Python.",
       "repo": "dcajasn/Riskfolio-Lib",
       "repo_url": "https://github.com/dcajasn/Riskfolio-Lib",
-      "stars": 4405,
+      "stars": 4425,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -5507,7 +5476,7 @@
       "description": "— Common financial risk and performance metrics.  fork.",
       "repo": "stefan-jansen/empyrical-reloaded",
       "repo_url": "https://github.com/stefan-jansen/empyrical-reloaded",
-      "stars": 116,
+      "stars": 118,
       "archived": false,
       "release": {
         "tagName": "0.5.12",
@@ -5529,7 +5498,7 @@
       "description": "— Portfolio and risk analytics in Python.  fork.",
       "repo": "stefan-jansen/pyfolio-reloaded",
       "repo_url": "https://github.com/stefan-jansen/pyfolio-reloaded",
-      "stars": 602,
+      "stars": 604,
       "archived": false,
       "release": {
         "tagName": "0.9.9",
@@ -5551,7 +5520,7 @@
       "description": "— Conditional Value-at-Risk (CVaR) portfolio optimization and Entropy Pooling views / stress-testing in Python.",
       "repo": "fortitudo-tech/fortitudo.tech",
       "repo_url": "https://github.com/fortitudo-tech/fortitudo.tech",
-      "stars": 302,
+      "stars": 303,
       "archived": false,
       "release": {
         "tagName": "v1.2.4",
@@ -5772,11 +5741,11 @@
       "stars": 16,
       "archived": false,
       "release": {
-        "tagName": "v0.3.2",
-        "publishedAt": "2026-04-10T23:37:28Z",
-        "createdAt": "2026-04-10T23:37:27Z",
+        "tagName": "v0.3.4",
+        "publishedAt": "2026-07-30T16:50:41Z",
+        "createdAt": "2026-07-30T16:50:39Z",
         "isPrerelease": false,
-        "url": "https://github.com/rbeeli/RiskPerf.jl/releases/tag/v0.3.2"
+        "url": "https://github.com/rbeeli/RiskPerf.jl/releases/tag/v0.3.4"
       },
       "status": "released"
     },
@@ -5807,14 +5776,14 @@
       "description": "— Wealth management software to keep track of financial assets like stocks, ETFs or cryptocurrencies and make solid, data-driven investment decisions.",
       "repo": "ghostfolio/ghostfolio",
       "repo_url": "https://github.com/ghostfolio/ghostfolio",
-      "stars": 9013,
+      "stars": 9058,
       "archived": false,
       "release": {
-        "tagName": "3.34.0",
-        "publishedAt": "2026-07-25T17:13:27Z",
-        "createdAt": "2026-07-25T17:12:14Z",
+        "tagName": "3.40.0",
+        "publishedAt": "2026-08-02T07:58:51Z",
+        "createdAt": "2026-08-02T07:57:21Z",
         "isPrerelease": false,
-        "url": "https://github.com/ghostfolio/ghostfolio/releases/tag/3.34.0"
+        "url": "https://github.com/ghostfolio/ghostfolio/releases/tag/3.40.0"
       },
       "status": "released"
     },
@@ -5845,7 +5814,7 @@
       "description": "— AI skills for quantitative factor research: discover, evaluate, mine, backtest, and monitor factors through any AI coding assistant. Supports A-share, HK, and US markets.",
       "repo": "VernonOY/alpha-skills",
       "repo_url": "https://github.com/VernonOY/alpha-skills",
-      "stars": 69,
+      "stars": 71,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -5861,7 +5830,7 @@
       "description": "— Performance analysis of predictive alpha factors.",
       "repo": "quantopian/alphalens",
       "repo_url": "https://github.com/quantopian/alphalens",
-      "stars": 4392,
+      "stars": 4401,
       "archived": false,
       "release": {
         "tagName": "v0.4.0",
@@ -5883,7 +5852,7 @@
       "description": "— Performance analysis of predictive (alpha) stock factors.",
       "repo": "stefan-jansen/alphalens-reloaded",
       "repo_url": "https://github.com/stefan-jansen/alphalens-reloaded",
-      "stars": 616,
+      "stars": 620,
       "archived": false,
       "release": {
         "tagName": "0.4.5",
@@ -5905,7 +5874,7 @@
       "description": "— GPU-accelerated Factors analysis library and Backtester.",
       "repo": "Heerozh/spectre",
       "repo_url": "https://github.com/Heerozh/spectre",
-      "stars": 817,
+      "stars": 818,
       "archived": false,
       "release": {
         "tagName": "v0.4-beta",
@@ -5927,14 +5896,14 @@
       "description": "— PyTorch research stack for multi-factor analysis, bias correction, portfolio optimization, and reproducible backtesting.",
       "repo": "initial-d/ml-quant-trading",
       "repo_url": "https://github.com/initial-d/ml-quant-trading",
-      "stars": 54,
+      "stars": 66,
       "archived": false,
       "release": {
-        "tagName": "v0.2.0",
-        "publishedAt": "2026-07-20T04:05:12Z",
-        "createdAt": "2026-07-20T03:58:23Z",
+        "tagName": "v0.2.3",
+        "publishedAt": "2026-07-29T08:54:12Z",
+        "createdAt": "2026-07-29T08:53:47Z",
         "isPrerelease": false,
-        "url": "https://github.com/initial-d/ml-quant-trading/releases/tag/v0.2.0"
+        "url": "https://github.com/initial-d/ml-quant-trading/releases/tag/v0.2.3"
       },
       "status": "released"
     },
@@ -5949,7 +5918,7 @@
       "description": "— Agent-driven A-share factor research engine with 8 MCP tools covering hypothesis design, backtesting, scoring, and anti-overfit detection.",
       "repo": "Miasyster/QuantGPT",
       "repo_url": "https://github.com/Miasyster/QuantGPT",
-      "stars": 419,
+      "stars": 424,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -5965,7 +5934,7 @@
       "description": "— Open-source investment analytics platform bridging academic research and retail finance.",
       "repo": "husainm97/quant-lab-alpha",
       "repo_url": "https://github.com/husainm97/quant-lab-alpha",
-      "stars": 36,
+      "stars": 35,
       "archived": false,
       "release": {
         "tagName": "core-functionality-v1.0.1",
@@ -6133,7 +6102,7 @@
       "description": "— ARCH models in Python.",
       "repo": "bashtage/arch",
       "repo_url": "https://github.com/bashtage/arch",
-      "stars": 1543,
+      "stars": 1548,
       "archived": false,
       "release": {
         "tagName": "v8.0.0",
@@ -6155,7 +6124,7 @@
       "description": "— Python module that allows users to explore data, estimate statistical models, and perform statistical tests.",
       "repo": "statsmodels/statsmodels",
       "repo_url": "https://github.com/statsmodels/statsmodels",
-      "stars": 11531,
+      "stars": 11549,
       "archived": false,
       "release": {
         "tagName": "v0.14.6",
@@ -6193,7 +6162,7 @@
       "description": "— Python library for timeseries modelling and inference (frequentist and Bayesian) on models.",
       "repo": "RJT1990/pyflux",
       "repo_url": "https://github.com/RJT1990/pyflux",
-      "stars": 2136,
+      "stars": 2137,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -6209,7 +6178,7 @@
       "description": "— Automatic extraction of relevant features from time series.",
       "repo": "blue-yonder/tsfresh",
       "repo_url": "https://github.com/blue-yonder/tsfresh",
-      "stars": 9277,
+      "stars": 9280,
       "archived": false,
       "release": {
         "tagName": "v0.21.2",
@@ -6231,14 +6200,14 @@
       "description": "— Tool for producing high quality forecasts for time series data that has multiple seasonality with linear or non-linear growth.",
       "repo": "facebook/prophet",
       "repo_url": "https://github.com/facebook/prophet",
-      "stars": 20327,
+      "stars": 20333,
       "archived": false,
       "release": {
-        "tagName": "v1.3.0",
-        "publishedAt": "2026-01-27T22:19:14Z",
-        "createdAt": "2026-01-27T22:18:41Z",
+        "tagName": "v1.4.0",
+        "publishedAt": "2026-08-01T06:13:29Z",
+        "createdAt": "2026-08-01T06:12:32Z",
         "isPrerelease": false,
-        "url": "https://github.com/facebook/prophet/releases/tag/v1.3.0"
+        "url": "https://github.com/facebook/prophet/releases/tag/v1.4.0"
       },
       "status": "released"
     },
@@ -6275,7 +6244,7 @@
       "description": "— A statistical library designed to fill the void in Python's time series analysis capabilities, including the equivalent of R's auto.arima function.",
       "repo": "alkaline-ml/pmdarima",
       "repo_url": "https://github.com/alkaline-ml/pmdarima",
-      "stars": 1731,
+      "stars": 1732,
       "archived": false,
       "release": {
         "tagName": "v2.1.1",
@@ -6300,11 +6269,11 @@
       "stars": 5222,
       "archived": false,
       "release": {
-        "tagName": "v0.17.0rc1",
-        "publishedAt": "2026-07-22T11:58:18Z",
-        "createdAt": "2026-07-22T11:55:30Z",
-        "isPrerelease": true,
-        "url": "https://github.com/awslabs/gluonts/releases/tag/v0.17.0rc1"
+        "tagName": "v0.17.0",
+        "publishedAt": "2026-07-31T10:56:55Z",
+        "createdAt": "2026-07-31T10:56:02Z",
+        "isPrerelease": false,
+        "url": "https://github.com/awslabs/gluonts/releases/tag/v0.17.0"
       },
       "status": "released"
     },
@@ -6482,7 +6451,7 @@
       "description": "— Bringing financial analysis to the tidyverse.",
       "repo": "business-science/tidyquant",
       "repo_url": "https://github.com/business-science/tidyquant",
-      "stars": 910,
+      "stars": 911,
       "archived": false,
       "release": {
         "tagName": "1.0.12",
@@ -6504,7 +6473,7 @@
       "description": "— A toolkit for working with time series in R.",
       "repo": "business-science/timetk",
       "repo_url": "https://github.com/business-science/timetk",
-      "stars": 644,
+      "stars": 643,
       "archived": false,
       "release": {
         "tagName": "2.9.1",
@@ -6526,7 +6495,7 @@
       "description": "— Built on top of the tidyverse, tibbletime is an extension that allows for the creation of time aware tibbles through the setting of a time index.",
       "repo": "business-science/tibbletime",
       "repo_url": "https://github.com/business-science/tibbletime",
-      "stars": 177,
+      "stars": 176,
       "archived": false,
       "release": {
         "tagName": "v0.1.9",
@@ -6548,7 +6517,7 @@
       "description": "— Time series data mining library built on top of the novel Matrix Profile data structure and algorithms.",
       "repo": "matrix-profile-foundation/matrixprofile",
       "repo_url": "https://github.com/matrix-profile-foundation/matrixprofile",
-      "stars": 383,
+      "stars": 384,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -6624,7 +6593,7 @@
       "description": "— Deterministic offline PineScript v6 → C++ backtest runtime, validated trade-for-trade against TradingView (245/246 strict, 0 engine bugs). Runs locally via Docker and is drivable by AI agents through a bundled MCP server.",
       "repo": "pineforge-4pass/pineforge-engine",
       "repo_url": "https://github.com/pineforge-4pass/pineforge-engine",
-      "stars": 168,
+      "stars": 169,
       "archived": false,
       "release": {
         "tagName": "v0.12.2",
@@ -6678,7 +6647,7 @@
       "description": "— Terminal for investment research for everyone.",
       "repo": "OpenBB-finance/OpenBB",
       "repo_url": "https://github.com/OpenBB-finance/OpenBB",
-      "stars": 71039,
+      "stars": 71303,
       "archived": false,
       "release": {
         "tagName": "ODP",
@@ -6700,7 +6669,7 @@
       "description": "— Advance Data Based A.I Terminal for all Types of Financial Asset Research.",
       "repo": "Fincept-Corporation/FinceptTerminal",
       "repo_url": "https://github.com/Fincept-Corporation/FinceptTerminal",
-      "stars": 29154,
+      "stars": 29447,
       "archived": false,
       "release": {
         "tagName": "v4.3.0",
@@ -6722,7 +6691,7 @@
       "description": "— Yahoo! Finance market data downloader (+faster Pandas Datareader).",
       "repo": "ranaroussi/yfinance",
       "repo_url": "https://github.com/ranaroussi/yfinance",
-      "stars": 24810,
+      "stars": 24862,
       "archived": false,
       "release": {
         "tagName": "1.5.2",
@@ -6766,7 +6735,7 @@
       "description": "— Typed client for the US Treasury FiscalData API (debt, average interest rates, exchange rates) with pagination and filtering; no API key required.",
       "repo": "moshejs/treasury-fiscaldata",
       "repo_url": "https://github.com/moshejs/treasury-fiscaldata",
-      "stars": 0,
+      "stars": 1,
       "archived": false,
       "release": {
         "tagName": "v1.0.0",
@@ -6848,7 +6817,7 @@
       "description": "— An open-source alternative to Yahoo Finance's market data APIs with higher reliability.",
       "repo": "defeat-beta/defeatbeta-api",
       "repo_url": "https://github.com/defeat-beta/defeatbeta-api",
-      "stars": 713,
+      "stars": 718,
       "archived": false,
       "release": {
         "tagName": "release-0.0.60",
@@ -6892,7 +6861,7 @@
       "description": "— Free DEX data API client. 34 blockchains, 30M+ pools, 27M+ tokens, real-time SSE streaming, OHLCV. No API key needed.",
       "repo": "coinpaprika/dexpaprika-sdk-python",
       "repo_url": "https://github.com/coinpaprika/dexpaprika-sdk-python",
-      "stars": 10,
+      "stars": 11,
       "archived": false,
       "release": {
         "tagName": "v0.4.0",
@@ -6952,7 +6921,7 @@
       "description": "— Python library to download market data via Bloomberg, Quandl, Yahoo etc.",
       "repo": "cuemacro/findatapy",
       "repo_url": "https://github.com/cuemacro/findatapy",
-      "stars": 2085,
+      "stars": 2090,
       "archived": false,
       "release": {
         "tagName": "v.0.1.42",
@@ -7028,7 +6997,7 @@
       "description": "— Python module to get stock data from Yahoo! Finance.",
       "repo": "yahoo-finance/yahoo-finance",
       "repo_url": "https://github.com/yahoo-finance/yahoo-finance",
-      "stars": 1441,
+      "stars": 1442,
       "archived": false,
       "release": {
         "tagName": "1.4.0",
@@ -7050,7 +7019,7 @@
       "description": "— Python module to get data from various sources (Google Finance, Yahoo Finance, FRED, OECD, Fama/French, World Bank, Eurostat...) into Pandas datastructures such as DataFrame, Panel with a caching mechanism.",
       "repo": "pydata/pandas-datareader",
       "repo_url": "https://github.com/pydata/pandas-datareader",
-      "stars": 3229,
+      "stars": 3226,
       "archived": false,
       "release": {
         "tagName": "v0.11.1",
@@ -7164,7 +7133,7 @@
       "description": "— Download historical and live stock data from NSE (National Stock Exchange of India), BSE, and RBI.",
       "repo": "jugaad-py/jugaad-data",
       "repo_url": "https://github.com/jugaad-py/jugaad-data",
-      "stars": 546,
+      "stars": 547,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -7180,7 +7149,7 @@
       "description": "— Python library for extracting real-time data from National Stock Exchange (India).",
       "repo": "vsjha18/nsetools",
       "repo_url": "https://github.com/vsjha18/nsetools",
-      "stars": 903,
+      "stars": 902,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -7228,7 +7197,7 @@
       "description": "— Real time stock and option data.",
       "repo": "mcdallas/wallstreet",
       "repo_url": "https://github.com/mcdallas/wallstreet",
-      "stars": 1677,
+      "stars": 1682,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -7530,7 +7499,7 @@
       "description": "— Parse Japanese XBRL financial statements from EDINET with 161 normalized labels, 26 financial metrics, and multi-company screening.",
       "repo": "ajtgjmdjp/edinet-mcp",
       "repo_url": "https://github.com/ajtgjmdjp/edinet-mcp",
-      "stars": 15,
+      "stars": 14,
       "archived": false,
       "release": {
         "tagName": "v0.8.2",
@@ -7552,7 +7521,7 @@
       "description": "— Access Japanese government statistics (e-Stat) covering population, GDP, CPI, labor, and trade data with MCP integration and Polars export.",
       "repo": "ajtgjmdjp/estat-mcp",
       "repo_url": "https://github.com/ajtgjmdjp/estat-mcp",
-      "stars": 7,
+      "stars": 8,
       "archived": false,
       "release": {
         "tagName": "v0.2.5",
@@ -7640,7 +7609,7 @@
       "description": "— Python API for coinmarketcap.",
       "repo": "barnumbirr/coinmarketcap",
       "repo_url": "https://github.com/barnumbirr/coinmarketcap",
-      "stars": 435,
+      "stars": 433,
       "archived": true,
       "release": null,
       "status": "no-github-release"
@@ -7704,7 +7673,7 @@
       "description": "— Python Interface for retrieving chinese stock realtime quote data from TongDaXin Nodes.",
       "repo": "rainx/pytdx",
       "repo_url": "https://github.com/rainx/pytdx",
-      "stars": 1553,
+      "stars": 1552,
       "archived": true,
       "release": null,
       "status": "no-github-release"
@@ -7891,14 +7860,14 @@
       "description": "— AkShare is an elegant and simple financial data interface library for Python, built for human beings! <https://akshare.readthedocs.io>.",
       "repo": "akfamily/akshare",
       "repo_url": "https://github.com/akfamily/akshare",
-      "stars": 21586,
+      "stars": 21742,
       "archived": false,
       "release": {
-        "tagName": "release-v1.18.79",
-        "publishedAt": "2026-07-26T11:22:01Z",
-        "createdAt": "2026-07-26T11:20:39Z",
+        "tagName": "release-v1.18.81",
+        "publishedAt": "2026-07-29T03:12:45Z",
+        "createdAt": "2026-07-29T03:11:25Z",
         "isPrerelease": false,
-        "url": "https://github.com/akfamily/akshare/releases/tag/release-v1.18.79"
+        "url": "https://github.com/akfamily/akshare/releases/tag/release-v1.18.81"
       },
       "status": "released"
     },
@@ -7913,7 +7882,7 @@
       "description": "— Python interface for retrieving data through unofficial Yahoo Finance API.",
       "repo": "dpguthrie/yahooquery",
       "repo_url": "https://github.com/dpguthrie/yahooquery",
-      "stars": 914,
+      "stars": 916,
       "archived": false,
       "release": {
         "tagName": "v2.4.1",
@@ -7935,7 +7904,7 @@
       "description": "— Financial Data Extraction from Investing.com with Python! <https://investpy.readthedocs.io/>.",
       "repo": "alvarobartt/investpy",
       "repo_url": "https://github.com/alvarobartt/investpy",
-      "stars": 1848,
+      "stars": 1850,
       "archived": false,
       "release": {
         "tagName": "1.0.8",
@@ -7995,7 +7964,7 @@
       "description": "— A python library for Polygon.io financial data APIs.",
       "repo": "massive-com/client-python",
       "repo_url": "https://github.com/massive-com/client-python",
-      "stars": 1489,
+      "stars": 1490,
       "archived": false,
       "release": {
         "tagName": "v2.8.0",
@@ -8033,7 +8002,7 @@
       "description": "— A python wrapper for Alpha Vantage API for financial data.",
       "repo": "RomelTorres/alpha_vantage",
       "repo_url": "https://github.com/RomelTorres/alpha_vantage",
-      "stars": 4872,
+      "stars": 4878,
       "archived": false,
       "release": {
         "tagName": "v3.0.0",
@@ -8077,7 +8046,7 @@
       "description": "— Open Source Financial data reader for U.S, Korean, Japanese, Chinese, Vietnamese Stocks.",
       "repo": "FinanceData/FinanceDataReader",
       "repo_url": "https://github.com/FinanceData/FinanceDataReader",
-      "stars": 1521,
+      "stars": 1526,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -8109,7 +8078,7 @@
       "description": "— Python interface to Brazilian Central Bank web services.",
       "repo": "wilsonfreitas/python-bcb",
       "repo_url": "https://github.com/wilsonfreitas/python-bcb",
-      "stars": 122,
+      "stars": 124,
       "archived": false,
       "release": {
         "tagName": "v0.4.0",
@@ -8153,7 +8122,7 @@
       "description": "— Create meaningful OHLCV datasets from knowledge of  (works out-the-box with data from Yahoo Finance).",
       "repo": "maread99/market_prices",
       "repo_url": "https://github.com/maread99/market_prices",
-      "stars": 103,
+      "stars": 104,
       "archived": false,
       "release": {
         "tagName": "0.12.14",
@@ -8305,7 +8274,7 @@
       "description": "— This is a database of 300.000+ symbols containing Equities, ETFs, Funds, Indices, Currencies, Cryptocurrencies and Money Markets.",
       "repo": "JerBouma/FinanceDatabase",
       "repo_url": "https://github.com/JerBouma/FinanceDatabase",
-      "stars": 8257,
+      "stars": 8290,
       "archived": false,
       "release": {
         "tagName": "2.4.0",
@@ -8327,7 +8296,7 @@
       "description": "— Toolkit with 200+ financial metrics including 80+ financial ratios, 30+ technical indicators, 20+ risk and performance metrics and 50+ macro indicators which pulls from Financial Modeling Prep, Yahoo Finance, OECD, GMBD and more.",
       "repo": "JerBouma/FinanceToolkit",
       "repo_url": "https://github.com/JerBouma/FinanceToolkit",
-      "stars": 5161,
+      "stars": 5185,
       "archived": false,
       "release": {
         "tagName": "v2.1.4",
@@ -8349,7 +8318,7 @@
       "description": "— download price data for decentralised exchanges and lending protocols (DeFi).",
       "repo": "tradingstrategy-ai/trading-strategy",
       "repo_url": "https://github.com/tradingstrategy-ai/trading-strategy",
-      "stars": 372,
+      "stars": 371,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -8365,7 +8334,7 @@
       "description": "— A package to work with SEC data. Incorporates datamule endpoints.",
       "repo": "john-friedman/datamule-python",
       "repo_url": "https://github.com/john-friedman/datamule-python",
-      "stars": 550,
+      "stars": 551,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -8441,14 +8410,14 @@
       "description": "— AI-native SEC EDGAR library with XBRL financials, clean text extraction, 17+ typed forms, and pandas DataFrames.",
       "repo": "dgunning/edgartools",
       "repo_url": "https://github.com/dgunning/edgartools",
-      "stars": 2513,
+      "stars": 2543,
       "archived": false,
       "release": {
-        "tagName": "v5.43.0",
-        "publishedAt": "2026-07-19T18:53:44Z",
-        "createdAt": "2026-07-19T18:53:40Z",
+        "tagName": "v5.45.0",
+        "publishedAt": "2026-08-03T01:23:17Z",
+        "createdAt": "2026-08-03T01:21:25Z",
         "isPrerelease": false,
-        "url": "https://github.com/dgunning/edgartools/releases/tag/v5.43.0"
+        "url": "https://github.com/dgunning/edgartools/releases/tag/v5.45.0"
       },
       "status": "released"
     },
@@ -8501,7 +8470,7 @@
       "description": "— SEC EDGAR JSON API + free Forensic risk-scoring tool: body-text-classified 8-Ks flagging buried events (~7.3% of Item 8.01 filings), Schedule 13D/G with 21+ activist filers auto-tagged, S-3/424B5 ATM offering detection. Free Forensic risk score 0-100 per ticker grounded in cited SEC filings (). Open-source classifier at . Also exposed as MCP server, ChatGPT GPT, and GitHub Action.",
       "repo": "jaablon/buried-events-parser",
       "repo_url": "https://github.com/jaablon/buried-events-parser",
-      "stars": 2,
+      "stars": 1,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -8593,7 +8562,7 @@
       "description": "— Live ticks over WebSocket plus historical ticks and candles for stocks, FX, crypto, commodities, indices, ETFs and futures, with options chains and greeks, economics series and government bond yields, across 118,000+ datasets. US stocks from 2003, FX from 2009, options from 2014, economics back to 1900. Free, no subscription tiers.",
       "repo": "londonstrategicedge/lse-data",
       "repo_url": "https://github.com/londonstrategicedge/lse-data",
-      "stars": 149,
+      "stars": 170,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -8727,7 +8696,7 @@
       "description": "— A bunch of downloaders and parsers for data delivered from B3.",
       "repo": "ropensci/rb3",
       "repo_url": "https://github.com/ropensci/rb3",
-      "stars": 100,
+      "stars": 101,
       "archived": false,
       "release": {
         "tagName": "v0.0.12",
@@ -8771,7 +8740,7 @@
       "description": "— Tidy Finance helper functions to download financial data and process the raw data into a structured Format (tidy data), including.",
       "repo": "tidy-finance/r-tidyfinance",
       "repo_url": "https://github.com/tidy-finance/r-tidyfinance",
-      "stars": 25,
+      "stars": 26,
       "archived": false,
       "release": {
         "tagName": "v0.8.0",
@@ -9014,7 +8983,7 @@
       "description": "— The CCXT for prediction markets. A unified API for trading on Polymarket, Kalshi, and more.",
       "repo": "pmxt-dev/pmxt",
       "repo_url": "https://github.com/pmxt-dev/pmxt",
-      "stars": 2031,
+      "stars": 2051,
       "archived": false,
       "release": {
         "tagName": "v2.54.0f",
@@ -9036,7 +9005,7 @@
       "description": "— Real-time whale trade tracker for Polymarket — terminal alerts + Telegram notifications when large orders hit the book.",
       "repo": "al1enjesus/polymarket-whales",
       "repo_url": "https://github.com/al1enjesus/polymarket-whales",
-      "stars": 56,
+      "stars": 57,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -9100,7 +9069,7 @@
       "description": "— Open-source market-making strategy that placed #2 in Paradigm's prediction market challenge, with full strategy evolution and analysis.",
       "repo": "octavi42/prediction-market-maker",
       "repo_url": "https://github.com/octavi42/prediction-market-maker",
-      "stars": 21,
+      "stars": 22,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -9116,7 +9085,7 @@
       "description": "— Autonomous trading agent for Kalshi, Polymarket, and Solana — Wang Transform pricing (calibrated on 291k resolved contracts) drives eight constraint-based arbitrage strategies and Kelly-sized model trades.",
       "repo": "YichengYang-Ethan/oracle3",
       "repo_url": "https://github.com/YichengYang-Ethan/oracle3",
-      "stars": 265,
+      "stars": 269,
       "archived": false,
       "release": {
         "tagName": "v1.1.2",
@@ -9138,7 +9107,7 @@
       "description": "— Stock Exchange Trading Calendars.",
       "repo": "gerrymanoim/exchange_calendars",
       "repo_url": "https://github.com/gerrymanoim/exchange_calendars",
-      "stars": 656,
+      "stars": 660,
       "archived": false,
       "release": {
         "tagName": "4.13.2",
@@ -9160,7 +9129,7 @@
       "description": "— Business days calculations and utilities.",
       "repo": "wilsonfreitas/python-bizdays",
       "repo_url": "https://github.com/wilsonfreitas/python-bizdays",
-      "stars": 92,
+      "stars": 93,
       "archived": false,
       "release": {
         "tagName": "v1.0.0",
@@ -9182,7 +9151,7 @@
       "description": "— Exchange calendars to use with pandas for trading applications.",
       "repo": "rsheftel/pandas_market_calendars",
       "repo_url": "https://github.com/rsheftel/pandas_market_calendars",
-      "stars": 986,
+      "stars": 987,
       "archived": false,
       "release": {
         "tagName": "v5.0.0",
@@ -9308,7 +9277,7 @@
       "description": "— Visualizer for pandas dataframes and xarray datasets.",
       "repo": "man-group/dtale",
       "repo_url": "https://github.com/man-group/dtale",
-      "stars": 5205,
+      "stars": 5210,
       "archived": false,
       "release": {
         "tagName": "v3.22.0",
@@ -9330,7 +9299,7 @@
       "description": "— matplotlib utilities for the visualization, and visual analysis, of financial data.",
       "repo": "matplotlib/mplfinance",
       "repo_url": "https://github.com/matplotlib/mplfinance",
-      "stars": 4413,
+      "stars": 4416,
       "archived": false,
       "release": {
         "tagName": "v0.12.10b0",
@@ -9352,7 +9321,7 @@
       "description": "— Performant and effortless finance plotting for Python.",
       "repo": "highfestiva/finplot",
       "repo_url": "https://github.com/highfestiva/finplot",
-      "stars": 1177,
+      "stars": 1179,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -9368,7 +9337,7 @@
       "description": "— Finviz analysis python library.",
       "repo": "lit26/finvizfinance",
       "repo_url": "https://github.com/lit26/finvizfinance",
-      "stars": 1540,
+      "stars": 1542,
       "archived": false,
       "release": {
         "tagName": "v1.3.0",
@@ -9412,14 +9381,14 @@
       "description": "— Quantitative Investment Strategies (QIS) package implements Python analytics for visualisation of financial data, performance reporting, analysis of quantitative strategies.",
       "repo": "ArturSepp/QuantInvestStrats",
       "repo_url": "https://github.com/ArturSepp/QuantInvestStrats",
-      "stars": 591,
+      "stars": 594,
       "archived": false,
       "release": {
-        "tagName": "v5.1.0",
-        "publishedAt": "2026-07-26T20:19:37Z",
-        "createdAt": "2026-07-26T13:48:25Z",
+        "tagName": "v5.6.0",
+        "publishedAt": "2026-08-02T12:42:37Z",
+        "createdAt": "2026-08-02T12:38:52Z",
         "isPrerelease": false,
-        "url": "https://github.com/ArturSepp/QuantInvestStrats/releases/tag/v5.1.0"
+        "url": "https://github.com/ArturSepp/QuantInvestStrats/releases/tag/v5.6.0"
       },
       "status": "released"
     },
@@ -9500,7 +9469,7 @@
       "description": "— High-performance, native Canvas/WebGL financial charting library for self-hosted applications without iframe limits.",
       "repo": "Efixdata/exeria-charts",
       "repo_url": "https://github.com/Efixdata/exeria-charts",
-      "stars": 6,
+      "stars": 7,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -9554,14 +9523,14 @@
       "description": "— Make Excel fly with Python.",
       "repo": "xlwings/xlwings",
       "repo_url": "https://github.com/xlwings/xlwings",
-      "stars": 3385,
+      "stars": 3391,
       "archived": false,
       "release": {
-        "tagName": "0.36.10",
-        "publishedAt": "2026-07-13T14:40:47Z",
-        "createdAt": "2026-07-13T14:37:58Z",
+        "tagName": "0.36.13",
+        "publishedAt": "2026-08-02T09:32:16Z",
+        "createdAt": "2026-08-02T09:30:14Z",
         "isPrerelease": false,
-        "url": "https://github.com/xlwings/xlwings/releases/tag/0.36.10"
+        "url": "https://github.com/xlwings/xlwings/releases/tag/0.36.13"
       },
       "status": "released"
     },
@@ -9592,7 +9561,7 @@
       "description": "— Library for developers to extract data from Microsoft Excel spreadsheet files.",
       "repo": "python-excel/xlrd",
       "repo_url": "https://github.com/python-excel/xlrd",
-      "stars": 2206,
+      "stars": 2205,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -9608,7 +9577,7 @@
       "description": "— Write files in the Excel 2007+ XLSX file format.",
       "repo": "jmcnamara/XlsxWriter",
       "repo_url": "https://github.com/jmcnamara/XlsxWriter",
-      "stars": 3959,
+      "stars": 3961,
       "archived": false,
       "release": null,
       "status": "no-github-release"
@@ -9711,7 +9680,7 @@
       "description": "— Open-source framework for crypto quant trading, funding rate arbitrage and ultra-low-latency market making.",
       "repo": "godzilla-foundation/godzilla-community",
       "repo_url": "https://github.com/godzilla-foundation/godzilla-community",
-      "stars": 362,
+      "stars": 365,
       "archived": false,
       "release": {
         "tagName": "v2.1.37",
@@ -9844,12 +9813,18 @@
       "primary_url": "https://alphaassay.com",
       "repo_requested": "alphaassay/mcp",
       "description": "— Independent statistical assay office for trading signals and backtests: deflated Sharpe with cumulative trial accounting, probability of backtest overfitting (PBO/CPCV), leakage forensics, placebo tests against matched synthetic null worlds, and pre-registration with Merkle-anchored timestamps — deterministic, Ed25519-signed verdicts anyone can replay. Free demo; hosted API and MCP server. Methodology audit, not investment advice.",
-      "repo": null,
-      "repo_url": null,
-      "stars": null,
-      "archived": null,
-      "release": null,
-      "status": "repo-unresolved"
+      "repo": "alphaassay/mcp",
+      "repo_url": "https://github.com/alphaassay/mcp",
+      "stars": 0,
+      "archived": false,
+      "release": {
+        "tagName": "v0.6.1",
+        "publishedAt": "2026-07-22T18:27:23Z",
+        "createdAt": "2026-07-22T17:26:03Z",
+        "isPrerelease": false,
+        "url": "https://github.com/alphaassay/mcp/releases/tag/v0.6.1"
+      },
+      "status": "released"
     }
   ]
 }
