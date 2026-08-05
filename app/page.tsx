@@ -43,6 +43,7 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [sections, setSections] = useState<string[]>([]);
   const [languages, setLanguages] = useState<string[]>([]);
+  const [openFilter, setOpenFilter] = useState<"languages" | "sections" | null>(null);
   const [market, setMarket] = useState("all");
   const [archive, setArchive] = useState("all");
   const [release, setRelease] = useState("all");
@@ -168,8 +169,11 @@ export default function Home() {
             onChange={(event) => setQuery(event.target.value)}
           />
         </label>
-        <details className="multi-filter">
-          <summary>Languages <span>{languages.length ? `${languages.length} selected` : "All"}</span></summary>
+        <details className="multi-filter" open={openFilter === "languages"}>
+          <summary onClick={(event) => {
+            event.preventDefault();
+            setOpenFilter((current) => current === "languages" ? null : "languages");
+          }}>Languages <span>{languages.length ? `${languages.length} selected` : "All"}</span></summary>
           <fieldset>
             <legend>Filter by one or more languages</legend>
             {availableLanguages.map((value) => (
@@ -184,8 +188,11 @@ export default function Home() {
             ))}
           </fieldset>
         </details>
-        <details className="multi-filter">
-          <summary>Categories <span>{sections.length ? `${sections.length} selected` : "All"}</span></summary>
+        <details className="multi-filter" open={openFilter === "sections"}>
+          <summary onClick={(event) => {
+            event.preventDefault();
+            setOpenFilter((current) => current === "sections" ? null : "sections");
+          }}>Categories <span>{sections.length ? `${sections.length} selected` : "All"}</span></summary>
           <fieldset>
             <legend>Filter by one or more categories</legend>
             {availableSections.map((value) => (
@@ -202,7 +209,7 @@ export default function Home() {
         </details>
         <label>
           <span>Market scope</span>
-          <select value={market} onChange={(event) => setMarket(event.target.value)}>
+          <select value={market} onFocus={() => setOpenFilter(null)} onChange={(event) => setMarket(event.target.value)}>
             <option value="all">All markets</option>
             <option value="exclude">Hide crypto-only</option>
             <option value="only">Crypto-only</option>
@@ -210,7 +217,7 @@ export default function Home() {
         </label>
         <label>
           <span>Release status</span>
-          <select value={release} onChange={(event) => setRelease(event.target.value)}>
+          <select value={release} onFocus={() => setOpenFilter(null)} onChange={(event) => setRelease(event.target.value)}>
             <option value="all">All statuses</option>
             <option value="released">Has GitHub release</option>
             <option value="none">No GitHub release</option>
@@ -219,7 +226,7 @@ export default function Home() {
         </label>
         <label>
           <span>Project status</span>
-          <select value={archive} onChange={(event) => setArchive(event.target.value)}>
+          <select value={archive} onFocus={() => setOpenFilter(null)} onChange={(event) => setArchive(event.target.value)}>
             <option value="all">All projects</option>
             <option value="exclude">Hide archived</option>
             <option value="only">Archived only</option>
