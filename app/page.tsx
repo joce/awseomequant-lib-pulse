@@ -166,6 +166,7 @@ export default function Home() {
             type="search"
             placeholder="Library, repository, or description"
             value={query}
+            onFocus={() => setOpenFilter(null)}
             onChange={(event) => setQuery(event.target.value)}
           />
         </label>
