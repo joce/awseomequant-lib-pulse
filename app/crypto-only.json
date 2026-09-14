@@ -10,7 +10,6 @@
   "Schoasch/skill-backtesting-arena",
   "Swap-API/swap-api",
   "amitesh-m/wealthville-integrations",
-  "barnumbirr/coinmarketcap",
   "bhftbootcamp/CryptoExchangeAPIs.jl",
   "ccxt/ccxt",
   "coinpaprika/coinpaprika-api-python-client",
@@ -28,9 +27,11 @@
   "scrtlabs/catalyst",
   "shingou-io/shingou-integrations",
   "soutone/coinpulse-python",
+  "stefanoviana/crypto-pump-scanner",
   "stefanoviana/deepalpha",
   "stellar-deprecated/kelp",
   "tardis-dev/tardis-python",
+  "tesseralytics/python-client",
   "tradingstrategy-ai/getting-started",
   "tradingstrategy-ai/trading-strategy"
 ]
