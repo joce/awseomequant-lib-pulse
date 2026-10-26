@@ -2,10 +2,14 @@
   "AccursedGalaxy/wasserstein-btc",
   "AlexanderMerkel/binance-fix-connector-python",
   "AlgoVaultLabs/crypto-quant-signal-mcp",
+  "BijectiveLabs/bitra",
+  "BlitzTrading/dca-ladder-calculator",
   "CompendiumFi/PENDAX-SDK",
   "Drakkar-Software/OctoBot",
   "Drakkar-Software/OctoBot-Script",
   "MathisWellmann/lfest-rs",
+  "Niketion/flowdepth",
+  "PERPBRAIN/perpbrain-sdk",
   "PreReason/mcp",
   "Schoasch/skill-backtesting-arena",
   "Swap-API/swap-api",
@@ -33,5 +37,6 @@
   "tardis-dev/tardis-python",
   "tesseralytics/python-client",
   "tradingstrategy-ai/getting-started",
-  "tradingstrategy-ai/trading-strategy"
+  "tradingstrategy-ai/trading-strategy",
+  "xiazhi88/Desic-Terminal"
 ]
